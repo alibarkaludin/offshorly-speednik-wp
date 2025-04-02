@@ -1,0 +1,12 @@
+@use "../common/breakpoints";
+
+input,
+textarea {
+	width: 100%;
+}
+
+@include breakpoints.small {
+	input {
+		width: auto;
+	}
+}

@@ -1,0 +1,22 @@
+{% set link = function('get_permalink', post.ID) %}
+{% set feature_img = function('get_the_post_thumbnail_url', post.ID) %}
+
+<div>
+	<div class="card-with-media uk-card uk-card-default">
+		<a href="{{ link }}">
+			<div class="uk-card-media-top" style="background-image: url('{{ feature_img }}')">
+			</div>
+		</a>
+		<div class="uk-card-body">
+			<a href="{{ link }}">
+				<h3 class="uk-card-title">{{ post.post_title }}</h3>
+			</a>
+			<div class="">
+				{{ post.post_content|excerpt(20) }}
+			</div>
+			<div class="uk-margin-top">
+				<a href="{{ link }}" class="uk-text-bold">Read More</a>
+			</div>
+		</div>
+	</div>
+</div>

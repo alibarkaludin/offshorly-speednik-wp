@@ -1,0 +1,32 @@
+{% macro menu_item(items, isTopLevel = false) %}
+	{% import _self as macros %}
+	<div class="{{ isTopLevel ? 'uk-grid uk-child-width-auto' : '' }}" {{ isTopLevel ? 'uk-grid' : '' }}>
+		{% for item in items %}
+			<div>
+				{% if item.children %}
+					<nav uk-dropnav>
+						<div>
+							<a href="{{ item.link }}" class="menu-item has-children" {{ item.is_target_blank or item.is_external ? 'target="_blank"' }}>
+								{{ item.title|title }}<span class="uk-margin-small-left" uk-drop-parent-icon></span>
+							</a>
+							<div class="uk-dropdown hidden-until-ready" uk-dropdown="pos: bottom-left; offset: 30">
+								{{ macros.menu_item(item.children) }}
+							</div>
+						</div>
+					</nav>
+				{% else %}
+					<a href="{{ item.link }}" class="menu-item" {{ item.is_target_blank or item.is_external ? 'target="_blank"' }}>
+						{{ item.title|title }}
+					</a>
+				{% endif %}
+			</div>
+		{% endfor %}
+	</div>
+{% endmacro %}
+
+{% import _self as macros %}
+{% set menu = function('get_menu', 'Main Menu').get_items %}
+
+<div class="main-menu">
+	{{ macros.menu_item(menu, true) }}
+</div>

@@ -1,0 +1,25 @@
+<div class="banner-content-and-cta uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		<div uk-grid class="uk-grid">
+			<div class="uk-width-2-3@m uk-text-center uk-margin-auto">
+				
+				{% if content.header %}
+					<h2>{{ content.header }}</h2>
+				{% endif %}
+
+				{% if content.body_text %}
+					<div class="richtext-content">
+						{{content.body_text}}
+					</div>
+				{% endif %}
+
+				{% set cta = content.cta_field %}
+				{% if cta %}
+					<div class="cta-wrapper uk-margin-medium-top">
+						<a href="{{ cta.url }}" class="button button--primary" target="{{ cta.target }}">{{ cta.title }}</a>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>

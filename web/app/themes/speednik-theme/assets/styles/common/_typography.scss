@@ -1,0 +1,60 @@
+@use "mixins";
+
+// minimum & maximum view port size for fluid typography
+$min_width: 480px;
+$max_width: 1920px; // (can change depending on design size)
+
+body {
+
+	&.wp-front,
+	&.wp-front * {
+		font-family: "Source Sans 3", sans-serif;
+		font-optical-sizing: auto;
+		@include mixins.fluid-type($min_width, $max_width, 16px, 18px);
+
+		p {
+			&:last-child:not(:first-child) {
+				margin-bottom: 0;
+			}
+
+			@include mixins.fluid-type($min_width, $max_width, 16px, 18px);
+		}
+
+
+		h1,
+		.h1 {
+			font-weight: bolder;
+			@include mixins.fluid-type($min_width, $max_width, 36px, 56px);
+		}
+
+		h2,
+		.h2 {
+			font-weight: bold;
+			@include mixins.fluid-type($min_width, $max_width, 26px, 38px);
+		}
+
+		h3,
+		.h3 {
+			font-weight: bold;
+			@include mixins.fluid-type($min_width, $max_width, 22px, 32px);
+		}
+
+		h4,
+		.h4 {
+			font-weight: bold;
+			@include mixins.fluid-type($min_width, $max_width, 20px, 28px);
+		}
+
+		h5,
+		.h5 {
+			font-weight: bold;
+			@include mixins.fluid-type($min_width, $max_width, 18px, 24px);
+		}
+
+		h6,
+		.h6 {
+			font-weight: bold;
+			@include mixins.fluid-type($min_width, $max_width, 16px, 20px);
+		}
+	}
+}

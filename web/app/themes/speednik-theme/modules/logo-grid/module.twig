@@ -1,0 +1,17 @@
+<div class="logo-grid uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="uk-width-1-1 content-wrapper">
+		{% if content.header %}
+			<h2 class="uk-text-center">{{ content.header }}</h2>
+		{% endif %}
+
+		{% if content.logos %}
+			<div class="uk-grid uk-child-width-1-{{ styles.columns }}@m uk-child-width-1-3 uk-flex uk-flex-center uk-flex-middle">
+				{% for logo in content.logos %}
+					<div class="uk-text-center uk-padding-small">
+						<img class="logo-item" src="{{ logo.image }}" alt="Logo">
+					</div>
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
+</div>

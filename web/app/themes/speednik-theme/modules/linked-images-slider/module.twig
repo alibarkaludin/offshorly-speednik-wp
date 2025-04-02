@@ -1,0 +1,26 @@
+<div class="linked-images-slider uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="uk-width-1-1 content-wrapper">
+
+		{% if content.header %}
+			<h2 class="uk-text-center">{{ content.header }}</h2>
+		{% endif %}
+
+		<div class="uk-margin-medium-top uk-margin-medium-bottom">
+			<div class="slick-slider uk-flex uk-flex-center uk-flex-middle" data-slick='{"slidesToShow": 5, "slidesToScroll": 1}' uk-height-match=".slider-item">
+				{% for image in content.images %}
+					<div class="uk-margin-medium-bottom">
+						<div class="slider-item uk-flex uk-flex-middle uk-flex-center">
+							{% if image.url %}
+								<a href={{ image.url }} target="_blank">
+									<img src="{{ image.image }}" alt="image">
+								</a>
+							{% else %}
+								<img src="{{ image.image }}" alt="image">
+							{% endif %}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

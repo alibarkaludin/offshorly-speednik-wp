@@ -1,0 +1,79 @@
+{% set lists = function('get_posts', content.post_type)|filter(item => item.ID not in content.exclude) %}
+
+<div class="featured-latest-posts uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		{% if content.header %}
+			<h2>{{ content.header }}</h2>
+		{% endif %}
+		{% if content.subheader %}
+			<div class="uk-width-2-3@m">{{ content.subheader }}</div>
+		{% endif %}
+
+		{% if lists %}
+			<div uk-grid class="uk-grid-match uk-child-width-1-2@m uk-child-width-1-1">
+				
+				{# featured latest — left side, big panel #}
+				<div>
+					{% for item in lists|slice(0, 1) %}
+						{% set item_link = function('get_permalink', item.ID) %}
+						{% set item_feature_img = function('get_the_post_thumbnail_url', item.ID) %}
+						
+						<div class="card-with-media uk-card uk-card-default">
+							<a href="{{ item_link }}">
+								<div class="uk-card-media-top" style="background-image: url('{{ item_feature_img }}')"></div>
+							</a>
+							<div class="uk-card-body">
+								<a href="{{ item_link }}">
+									<h3 class="uk-card-title">{{ item.post_title }}</h3>
+								</a>
+								<div class="summary-wrapper">
+									{{ item.post_content|excerpt(20) }}
+								</div>
+								<div class="cta-wrapper uk-margin-top">
+									<a href="{{ item_link }}" class="uk-text-bold" target="">Read more</a>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+
+				{# second and third latest — right side, small panels #}
+				<div>
+					<div uk-grid class="uk-child-width-1-1@m uk-grid-match">
+						{% for item in lists|slice(1, 2) %}
+							{% set item_link = function('get_permalink', item.ID) %}
+							{% set item_feature_img = function('get_the_post_thumbnail_url', item.ID) %}
+							<div>
+								<div class="card-with-media uk-card uk-card-default uk-grid-collapse uk-grid-column-large uk-height-match" uk-grid>  
+									<div class="uk-width-1-3@s">
+										
+										<div class="uk-card-media-left uk-cover-container">
+											<a href="{{ item_link }}">
+												<img src="{{ item_feature_img }}" alt="" uk-cover>
+												<canvas width="200" height="250"></canvas>
+											</a>
+										</div>
+									</div>
+									<div class="uk-width-2-3@s">
+										<div class="uk-card-body">
+											<a href="{{ item_link }}">
+												<h2 class="uk-card-title">{{ item.post_title }}</h2>
+											</a>
+											<div class="summary-wrapper">
+												{{ item.post_content|excerpt(15) }}
+											</div>
+											<div class="cta-wrapper uk-margin-top">
+												<a href="{{ item_link }}" class="uk-text-bold" target="">Read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% endif %}
+		
+	</div>
+</div>

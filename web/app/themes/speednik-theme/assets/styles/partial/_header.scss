@@ -1,0 +1,29 @@
+@use "../common/variables";
+
+header {
+	background-color: variables.$white;
+
+	.mobile-menu-button span {
+		color: variables.$black;
+	}
+
+	.main-menu {
+
+		a.menu-item {
+			color: variables.$black;
+			font-weight: 600;
+		}
+	}
+
+
+	#mobile-menu-offcanvas {
+
+		.mobile-menu-wrapper {
+			width: 100vw;
+		}
+
+		.uk-offcanvas-close {
+			color: variables.$black;
+		}
+	}
+}

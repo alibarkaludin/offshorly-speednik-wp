@@ -1,0 +1,7 @@
+name: offshorly-speednik-wp
+recipe: wordpress
+config:
+  webroot: web
+services:
+  appserver:
+    type: php:8.2 # Bedrock requires PHP >= 8.0

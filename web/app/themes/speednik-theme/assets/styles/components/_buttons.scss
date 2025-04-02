@@ -1,0 +1,80 @@
+@use "../common/breakpoints";
+@use "../common/variables";
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	border-radius: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	text-decoration: none;
+	transition: all .5s ease;
+
+	&:hover,
+	&:focus {
+		border-width: 1px;
+		border-style: solid;
+		border-color: transparent;
+		text-decoration: none;
+	}
+
+	&--simple {
+		font-weight: 700;
+	}
+
+	&--primary {
+		border-color: variables.$black;
+		background-color: variables.$black;
+		color: variables.$white;
+		padding: 10px 25px;
+
+		@include breakpoints.medium {
+			padding: 15px 30px;
+		}
+
+		&:hover,
+		&:focus {
+			border-color: variables.$black;
+			background-color: variables.$white;
+			color: variables.$black;
+		}
+	}
+
+	&--secondary {
+		border-color: variables.$black;
+		background-color: variables.$white;
+		color: variables.$black;
+		padding: 10px 25px;
+
+		@include breakpoints.medium {
+			padding: 15px 30px;
+		}
+
+		&:hover,
+		&:focus {
+			border-color: variables.$black;
+			background-color: variables.$black;
+			color: variables.$white;
+		}
+	}
+}
+
+a,
+a:hover,
+a:focus,
+button,
+button:hover,
+button:focus {
+	border: 0;
+	outline: none;
+}
+
+input,
+input:hover,
+input:focus,
+textarea,
+textarea:hover,
+textarea:focus {
+	outline: none;
+}

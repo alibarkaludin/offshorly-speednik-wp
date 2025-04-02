@@ -1,0 +1,9 @@
+.alternating-image-and-content {
+	.list {
+		&.alternate {
+			.uk-grid:nth-child(even) {
+				flex-direction: row-reverse;
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+<div class="pricing-cards uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+
+		<div class="heading uk-text-center">
+			{% if content.header %}
+				<h2>{{ content.header }}</h2>
+			{% endif %}
+
+			{% if content.subheader %}
+				<p>{{ content.subheader }}</p>
+			{% endif %}
+		</div>
+
+		<div class="card-items uk-grid uk-flex uk-flex-middle uk-height-match uk-margin-medium-top">
+			{% for item in content.lists %}
+				<div class="card-item uk-width-1-5@m uk-margin-bottom">
+					<div class="uk-card uk-card-body uk-box-shadow-large uk-border-rounded bg--light">
+
+						<div class="heading-wrapper uk-flex">
+							{% if item.icon %}
+								<img src="{{ item.icon }}" alt="" class="uk-margin-small-right"/>
+							{% endif %}
+							{% if item.heading %}
+								<div class="heading">{{ item.heading }}</div>
+							{% endif %}
+						</div>
+
+						{% if item.amount %}
+							<div class="amount">
+								<h3 class="h1 uk-margin-top uk-margin-remove-bottom">{{ item.amount }}</h3>
+							</div>
+						{% endif %}
+
+						{% if item.description %}
+							<div class="description">
+								<p>{{ item.description }}</p>
+							</div>
+						{% endif %}
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+
+		{% if content.cta %}
+			<div class="cta-wrapper uk-text-center uk-margin-medium-top">
+				<div>
+					<a href="{{ content.cta.url }}" class="button button--primary" target="{{ content.cta.target }}">{{ content.cta.title }}</a>
+				</div>
+			</div>
+		{% endif %}
+
+	</div>
+</div>

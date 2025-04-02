@@ -1,0 +1,45 @@
+{% macro testimonial(slide) %}
+	<div class="slider-item uk-padding">
+		<div class="testimonial">
+			{% if slide.quote %}
+				<div class="richtext-content">
+					{{ slide.quote }}
+				</div>
+			{% endif %}
+		</div>
+		<div>
+			<div class="uk-margin-bottom">
+				<img class="uk-border-circle" src="{{ slide.image }}" width="50" height="50" alt="avatar">
+			</div>
+			{% if slide.name_field %}
+				<h5 class="uk-margin-remove-top">{{ slide.name_field }}</h5>
+			{% endif %}
+			{% if slide.position %}
+				<h5 class="uk-margin-remove-top"><small>{{ slide.position }}</small></h5>
+			{% endif %}
+		</div>
+	</div>
+{% endmacro %}
+
+{% import _self as testimonials_slider %}
+
+<div class="testimonials-slider uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="uk-width-1-1 content-wrapper">
+
+		{% if content.header %}
+			<h2 class="uk-text-center">{{ content.header }}</h2>
+		{% endif %}
+
+		<div class="uk-margin-medium-bottom">
+			<div class="slick-slider" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}' uk-height-match=".slider-item">
+				{% for slide in content.testimonials %}
+					<div class="uk-margin-medium">
+						<div class="uk-flex uk-flex-center uk-flex-middle">
+							{{ testimonials_slider.testimonial(slide) }}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

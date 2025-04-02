@@ -1,0 +1,26 @@
+<div class="header uk-width-1-1 padding-small">
+	<div class="content-wrapper">
+		<div class="uk-grid uk-flex-between uk-flex-middle" uk-grid>
+			<div class="site-logo">
+				<a href="{{ site.url }}">
+					{% if options.site_logo %}
+						<img src="{{ options.site_logo.url }}" alt="{{ options.site_logo.alt }}">
+					{% else %}
+						{{ site.name }}
+					{% endif %}
+				</a>
+			</div>
+			<div class="site-menu">
+				<div class="desktop-menu uk-visible@m">
+					{% include 'templates/menu.twig' %}
+				</div>
+				<div class="mobile-menu uk-hidden@m">
+					<a href="#mobile-menu-offcanvas" uk-toggle class="mobile-menu-button">
+						<span uk-icon="menu"></span>
+					</a>
+					{% include 'templates/menu-mobile.twig' %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

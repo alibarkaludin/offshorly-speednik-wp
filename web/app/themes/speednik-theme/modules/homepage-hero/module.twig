@@ -1,0 +1,24 @@
+<div class="homepage-hero uk-width-1-1 text--{{ styles.text_color }}" style="background-image: url({{ content.background_image }})">
+	<div class="content-wrapper">
+		<div class="content uk-width-1-1 uk-width-2-3@l">
+			{% if content.header %}
+				<h1 class="header-title">{{ content.header }}</h1>
+			{% endif %}
+			{% if content.body_text %}
+				<div class="richtext-content">
+					{{ content.body_text }}
+				</div>
+			{% endif %}
+			{% if content.cta_field %}
+				<div class="cta-wrapper uk-margin-medium-top uk-flex uk-flex-inline">
+					{% for cta in content.cta_field %}
+						{% set cta = cta.link %}
+						{% if cta %}
+							<a href="{{ cta.url }}" class="button button--primary {% if loop.last == false %}uk-margin-right{% endif %}" target="{{ cta.target }}">{{ cta.title }}</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+			{% endif %}
+		</div>
+	</div>
+</div>

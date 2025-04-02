@@ -157,3 +157,9 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+# Added for local development
+.lando.yml
+composer.lock
+web/app/themes/speednik-theme/node_modules
+!web/app/themes/speednik-theme/node_modules/uikit

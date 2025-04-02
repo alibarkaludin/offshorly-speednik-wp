@@ -1,0 +1,44 @@
+{% macro content_item(item) %}
+	<div class="uk-padding uk-text-center">
+		{% if item.icon %}
+			<div class="uk-margin-bottom">
+				<img src="{{ item.icon }}" height="30" width="30" class="uk-text-center">
+			</div>
+		{% endif %}
+
+		{% if item.title %}
+			<h3 class="uk-margin-small">{{ item.title }}</h3>
+		{% endif %}
+		
+		{% if item.excerpt %}
+			<div class="richtext-content">
+				{{ item.excerpt }}
+			</div>
+		{% endif %}
+
+		{% set cta = item.cta_field %}
+		{% if cta %}
+			<div class="cta-wrapper uk-margin-small-top">
+				<a href="{{ cta.url }}" class="uk-text-bold" target="{{ cta.target }}">{{ cta.title }}</a>
+			</div>
+		{% endif %}
+	</div>
+{% endmacro %}
+
+{% import _self as content_grid %}
+
+<div class="content-grid uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		{% if content.header %}
+			<h2 class="uk-margin-medium-bottom uk-text-center">{{ content.header }}</h2>
+		{% endif %}
+
+		{% if content.items %}
+			<div uk-grid class="uk-grid uk-child-width-1-{{ styles.columns }}@m uk-grid-match columns-{{ styles.columns }}">
+				{% for item in content.items %}
+					{{ content_grid.content_item(item) }}
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
+</div>

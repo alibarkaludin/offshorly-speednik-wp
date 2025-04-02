@@ -1,0 +1,16 @@
+@mixin small {
+	@media (min-width: 640px) { @content; }
+}
+
+// if no tablet design,this size bracket automatically gets mobile design
+@mixin medium {
+	@media (min-width: 960px) { @content; }
+}
+
+@mixin large {
+	@media (min-width: 1200px) { @content; }
+}
+
+@mixin extra-large {
+	@media (min-width: 1600px) { @content; }
+}

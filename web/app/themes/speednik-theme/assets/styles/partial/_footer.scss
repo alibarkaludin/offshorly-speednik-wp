@@ -1,0 +1,20 @@
+@use "../common/variables";
+
+footer {
+
+	&.padding {
+		padding: 50px 0;
+	}
+
+	.footer-menu {
+		a {
+			color: variables.$black;
+			display: block;
+		}
+	}
+
+	.footer-copyright {
+		border-top: 1px solid variables.$black;
+		color: variables.$black;
+	}
+}

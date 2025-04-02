@@ -1,0 +1,36 @@
+<div class="content-tabs uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		<div class="uk-width-2-3@m uk-margin-auto uk-text-center">
+			{% if content.header %}
+				<h2>{{ content.header }}</h2>
+			{% endif %}
+			{% if content.subheader %}
+				<div>{{ content.subheader }}</div>
+			{% endif %}
+		
+			<ul class="uk-grid uk-flex-center uk-child-width-expand uk-margin-medium" uk-tab uk-grid uk-switcher="animation: uk-animation-fade;">
+				{% for tab in content.tab_content %}
+					<li class="uk-text-center">
+						<a href="#" class="uk-text-bold">{{ tab.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+
+			<div class="uk-switcher">
+				{% for tab in content.tab_content %}
+					<div class="uk-text-center">
+						{% if tab.content %}
+							<div class="uk-margin-top">{{ tab.content }}</div>
+						{% endif %}
+						{% if tab.cta %}
+							<div class="uk-text-center uk-margin-medium-top">
+								<a class="button button--primary" href="{{ tab.cta.url }}">{{ tab.cta.title }}</a>
+							</div>
+						{% endif %}
+					</div>
+				{% endfor %}
+			</div>
+
+		</div>
+	</div>
+</div>

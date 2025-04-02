@@ -1,0 +1,65 @@
+@use "breakpoints";
+
+// content wrapper
+
+.content-wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+
+	&.narrow {
+		max-width: 960px;
+	}
+
+	padding: 0 25px;
+
+	@include breakpoints.medium {
+		padding: 0 50px;
+	}
+}
+
+
+.card-with-media {
+
+	.uk-card-media-top {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		// initial height
+		height: 250px;
+
+		// to keep aspect ratio (16:9) of image - uncomment this code and delete height
+		/* padding-top: 56.25%;  */
+	}
+
+	.uk-card-media-left {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		// initial height & width
+		height: 100%;
+		width: 100%;
+
+		// to keep aspect ratio (16:9) of image - uncomment this code and delete height
+		/* padding-top: 56.25%;  */
+	}
+}
+
+
+
+// 16:9 aspect ratio for videos
+.aspect-ratio-video {
+	position: relative;
+	padding-bottom: calc((9 / 16) * 100%);
+
+	> * {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}

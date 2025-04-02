@@ -1,0 +1,12 @@
+@use "../../assets/styles/common/breakpoints";
+
+.email-signup {
+	.banner-wrapper {
+		margin: 0 auto;
+		padding: 30px;
+
+		@include breakpoints.medium {
+			padding: 50px;
+		}
+	}
+}

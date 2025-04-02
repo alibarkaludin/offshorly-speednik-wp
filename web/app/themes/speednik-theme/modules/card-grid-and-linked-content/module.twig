@@ -1,0 +1,49 @@
+{% macro card_item(page) %}
+
+	{% set page_url = fn('get_permalink', page) %}
+
+	<div>
+		<div class="card-with-media uk-card uk-card-default">
+			<a class="uk-display-block" href="{{ page_url }}" target="_blank">
+				<div class="uk-card-media-top" style="background-image: url('{{ fn('get_the_post_thumbnail_url', page) }}')">
+				</div>
+			</a>
+			<div class="uk-card-body">
+				{% if page.post_title %}
+					<a class="uk-display-block" href="{{ page_url }}" target="_blank">
+						<h3 class="uk-card-title">{{ page.post_title }}</h3>
+					</a>
+				{% endif %}
+				{% if page.post_content %}
+					<div class="richtext-content">
+						{{ page.post_content|truncate(15, true) }}
+					</div>
+				{% endif %}
+				
+				{% if page_url %}
+					<div class="cta-wrapper uk-margin-top">
+						<a href="{{ page_url }}" class="uk-text-bold" target="_blank">Find out more</a>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+{% endmacro %}
+
+{% import _self as card_grid_linked %}
+
+<div class="card-grid-and-linked-content uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		{% if content.header %}
+			<h2 class="uk-margin-medium-bottom uk-text-center">{{ content.header }}</h2>
+		{% endif %}
+	
+		{% if content.cards %}
+			<div uk-grid class="uk-grid uk-child-width-1-{{ styles.columns }}@m uk-grid-match columns-{{ styles.columns }}">
+				{% for linked_item in content.cards %}
+					{{ card_grid_linked.card_item(linked_item.page) }}
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
+</div>

@@ -1,0 +1,22 @@
+<div class="contact-us uk-with-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		<div uk-grid class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
+			<div class="content">
+				{% if content.header %}
+					<h2>{{ content.header }}</h2>
+				{% endif %}
+				
+				{% if content.body_text %}
+					<div class="richtext-content">
+						{{ content.body_text }}
+					</div>
+				{% endif %}
+			</div>
+			<div>
+				<div class="form-wrapper">
+					{{ function('do_shortcode', content.form_shortcode) }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

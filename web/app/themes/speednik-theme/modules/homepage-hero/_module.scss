@@ -1,0 +1,19 @@
+@use "../../assets/styles/common/breakpoints";
+
+.homepage-hero {
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 520px;
+
+	@include breakpoints.large {
+		height: 70vh;
+	}
+
+	.content-wrapper {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}

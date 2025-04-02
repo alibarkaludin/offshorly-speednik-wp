@@ -1,0 +1,13 @@
+.single-blog {
+	.featured-image {
+		// initial height
+		height: 450px;
+
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		// to keep aspect ratio (16:9) of image - uncomment this code and delete height
+		/* padding-top: 56.25%;  */
+	}
+}

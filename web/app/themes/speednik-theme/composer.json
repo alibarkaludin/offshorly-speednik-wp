@@ -1,0 +1,24 @@
+{
+  "name": "upstatement/timber-starter-theme",
+  "description": "Starter theme to build a Timber theme",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "email": "jared@upstatement.com",
+      "name": "jarednova"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "timber/timber": "^2.1"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

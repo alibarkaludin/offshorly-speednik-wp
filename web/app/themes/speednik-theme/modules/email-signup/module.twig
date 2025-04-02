@@ -1,0 +1,24 @@
+<div class="email-signup uk-width-1-1 padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		<div class="banner-wrapper bg--{{ styles.background_color }}">
+			<div uk-grid class="uk-grid uk-grid-column-large">
+				<div class="content uk-width-1-2@m">
+					{% if content.header %}
+						<h2>{{content.header}}</h2>
+					{% endif %}
+
+					{% if content.body_text %}
+						<div class="richtext-content">
+							{{content.body_text}}
+						</div>
+					{% endif %}  
+				</div>
+				<div class="uk-width-1-2@m">
+					<div class="form-wrapper">
+						{{ function('do_shortcode', content.form_shortcode) }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

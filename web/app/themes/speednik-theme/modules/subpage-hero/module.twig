@@ -1,0 +1,26 @@
+<div class="subpage-hero page-hero uk-width-1-1 text--{{ styles.text_color }}" style="background-image: url({{ content.background_image }})">
+	<div class="content-wrapper">
+		<div class="content uk-width-2-3@l uk-text-center uk-margin-auto">
+			{% if content.tag %}
+				<h5>{{ content.tag }}</h5>
+			{% endif %}
+
+			{% if content.header %}
+				<h1 class="uk-margin-top">{{ content.header }}</h1>
+			{% endif %}
+
+			{% if content.body_text %}
+				<div class="richtext-content">
+					{{ content.body_text }}
+				</div>
+			{% endif %}
+
+			{% set cta = content.cta_field %}
+			{% if cta %}
+				<div class="cta-wrapper uk-margin-medium-top">
+					<a href="{{ cta.url }}" class="button button--primary" target="{{ cta.target }}">{{ cta.title }}</a>
+				</div>
+			{% endif %}
+		</div>
+	</div>
+</div>

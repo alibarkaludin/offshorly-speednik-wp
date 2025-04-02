@@ -1,0 +1,24 @@
+<div class="accordion uk-width-1-1 bg--{{ styles.background_color }} padding remove-{{ global.padding|join('-') }}">
+	<div class="content-wrapper">
+		{% if content.header %}
+			<h2>{{ content.header }}</h2>
+		{% endif %}
+
+		{% if content.lists %}
+			<div>
+				<ul uk-accordion="multiple: true">
+					{% for item in content.lists %}
+						<li {% if loop.first %} class="uk-open" {% endif %}>
+							<a class="uk-accordion-title" href="#">
+								<h5 class="uk-margin-remove">{{ item.title }}</h5>
+							</a>
+							<div class="uk-accordion-content">
+								<p>{{ item.description }}</p>
+							</div>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+	</div>
+</div>

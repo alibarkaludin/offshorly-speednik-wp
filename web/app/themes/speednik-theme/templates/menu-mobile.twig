@@ -1,0 +1,50 @@
+{% macro menu_item(items, level = 0) %}
+    {% import _self as macros %}
+    <ul class="menu menu-level-{{ level }}">
+        {% for item in items %}
+            <li>
+                <a href="{{ item.link }}" class="menu-item uk-display-block {{ level == 1 ? 'padding-small' : 'padding-xs' }} {{ item.children ? 'uk-text-bold' : '' }}" {{ item.is_target_blank or item.is_external ? 'target="_blank"' }}>
+                    {{ item.title|title }}
+                </a>
+                {% if item.children %}
+                    {{ macros.menu_item(item.children, level + 1) }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}
+
+<div id="mobile-menu-offcanvas" uk-offcanvas="flip: true; overlay: true;" style="display: none;">
+	<div class="mobile-menu-wrapper uk-offcanvas-bar bg--light">
+		<div class="mobile-header padding-small">
+			<div class="content-wrapper">
+				<div class="uk-flex uk-flex-between uk-flex-center">
+					<div class="site-logo">
+						<a href="{{ site.url }}">
+							{% if options.site_logo %}
+								<img src="{{ options.site_logo.url }}" alt="{{ options.site_logo.alt }}">
+							{% else %}
+								{{ site.name }}
+							{% endif %}
+						</a>
+					</div>
+					<div>
+						<a class="uk-offcanvas-close uk-position-relative" type="button" uk-close></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu integration -->
+		<div class="mobile-nav">
+			<div class="content-wrapper">
+				{% import _self as macros %}
+				{% set menu = function('get_menu', 'Main Menu').get_items %}
+
+				<div class="main-menu">
+					{{ macros.menu_item(menu, true) }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
