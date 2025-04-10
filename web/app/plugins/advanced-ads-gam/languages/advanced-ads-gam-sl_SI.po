@@ -1,0 +1,510 @@
+# Translation of Google Ad Manager in Slovenian
+# This file is distributed under the same license as the Google Ad Manager package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-10 16:13:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sl_SI\n"
+"Project-Id-Version: Google Ad Manager\n"
+
+#: admin/views/gam-network-id.php:34
+msgid "Please make sure that the API in your GAM account is enabled."
+msgstr "Prosim poskrbi, da je API v tvojem računu GAM omogočen."
+
+#. 1: anchor tag that links to Google's docs, 2: closing anchor tag
+#: admin/views/ad-parameters.php:108
+msgid "Important: To comply with Google policy and enable your inventory to compete on Ad Exchange, %1$syou must declare which portions of your inventory refresh%2$s."
+msgstr "Pomembno: Da si skladen z Googlovo politiko in omogočiš, da tvoj inventar tekmuje na Ad Exchange, %1$smoraš deklarirati, kateri deli tvojega inventarja se osvežujejo%2$s."
+
+#: admin/views/ad-parameters.php:100
+msgid "seconds"
+msgstr "sekund"
+
+#: admin/views/ad-parameters.php:96
+msgid "Auto-refresh"
+msgstr "Avto osveži"
+
+#: admin/views/gam-connect.php:44
+msgid "Switching transport method"
+msgstr "Menjujem metodo transporta"
+
+#. amount of ads that can be imported from the Google account
+#: admin/views/importer/base-frame.php:11
+msgid "%d ad unit is not yet imported."
+msgid_plural "%d ad units are not yet imported."
+msgstr[0] "%d enota oglasa še ni uvožena."
+msgstr[1] "%d enoti oglasov še nista uvoženi."
+msgstr[2] "%d enote oglasov še niso uvožene."
+msgstr[3] "%d enot oglasov še ni uvoženih."
+
+#: admin/views/ad-list-rows.php:11
+msgid "Update ad unit"
+msgstr "Posodobi enoto oglasa"
+
+#: admin/class-advanced-ads-gam-api-soap.php:416
+msgid "Unknown response format"
+msgstr "Neznan format odgovora"
+
+#: admin/class-advanced-ads-gam-oauth2.php:245
+msgid "Unknown error while submitting code"
+msgstr "Prišlo je do neznane napake pri pošiljanju kode"
+
+#. Google Ad Manager account ID
+#: admin/class-advanced-ads-gam-oauth2.php:121
+msgid "Unknown error while renewing access token for \"%s\""
+msgstr "Neznana napaka pri obnavljanju žetona dostopa za \"%s\""
+
+#: admin/views/ad-parameters.php:89
+msgid "The selected ad unit is not in your ad list."
+msgstr "Izbrana oglasna enota ni v tvojem seznamu oglasov."
+
+#: admin/views/ad-search.php:53
+msgid "The listed ad units are already imported."
+msgstr "Naštete oglasne enote so že uvožene."
+
+#: admin/class-advanced-ads-gam-api-rest.php:85
+msgid "Testing the API"
+msgstr "Testiram API"
+
+#: admin/views/ad-list-rows.php:21 admin/views/ads-list.php:63
+msgid "Search ad units"
+msgstr "Išči oglasne enote"
+
+#: admin/views/ad-search.php:9
+msgid "Search"
+msgstr "Išči"
+
+#: admin/class-advanced-ads-gam-ajax.php:429
+msgid "Not Authorized"
+msgstr "Ni avtorizirano"
+
+#: admin/class-advanced-ads-gam-api-rest.php:170
+msgid "No SOAP. unknown response format >> getting ad units list"
+msgstr "Ni SOAP. Neznan format odgovora >> pridobivam seznam oglasnih enot"
+
+#: admin/class-advanced-ads-gam-api-rest.php:155
+msgid "No SOAP. No access token >> getting ad units list"
+msgstr "Ni SOAP. Ni žetona dostopa >> pridobivam seznam oglasnih enot"
+
+#: admin/class-advanced-ads-gam-api-rest.php:196
+msgid "No SOAP. No access token >> getting ad by"
+msgstr "Ni SOAP. Ni žetona dostopa >> pridobivam oglas po"
+
+#: admin/class-advanced-ads-gam-api-rest.php:123
+msgid "No SOAP. Getting network list"
+msgstr "Ni SOAP. Pridobivam seznam omrežij"
+
+#: admin/class-advanced-ads-gam-api-rest.php:176
+msgid "No SOAP. Getting all units"
+msgstr "Ni SOAP. Pridobivam vse enote"
+
+#: admin/class-advanced-ads-gam-api-rest.php:215
+msgid "No SOAP. Getting ads by"
+msgstr "Ni SOAP. Pridobivam oglase po"
+
+#: admin/views/ad-search.php:33
+msgid "No ad found matching that name"
+msgstr "Ne najdem oglasa s tem imenom"
+
+#: admin/views/ad-search.php:59
+msgid "Load into ad list"
+msgstr "Naloži v seznam oglasov"
+
+#: admin/class-advanced-ads-gam-api-rest.php:46
+#: admin/class-advanced-ads-gam-oauth2.php:69
+msgid "Invalid JSON string"
+msgstr "Neveljavni JSON niz"
+
+#: admin/class-advanced-ads-gam-oauth2.php:227
+msgid "Error while submitting code"
+msgstr "Napaka pri pošiljanju kode"
+
+#: admin/views/ad-search.php:6
+msgid "Enter an ad unit name from your Google Ad Manager account"
+msgstr "Vpiši ime oglasne enote iz svojega računa Google Ad Manager"
+
+#: admin/class-advanced-ads-gam-ajax.php:433
+msgid "Bad request"
+msgstr "Slaba zahteva"
+
+#: admin/views/ad-list-rows.php:12
+msgid "Remove ad unit"
+msgstr "Odstrani oglasno enoto"
+
+#. The string is followed by the sanitized key-value input before it is saved
+#: includes/class-advanced-ads-network-gam.php:302
+msgid "Will be created as"
+msgstr "Bo ustvarjeno kot"
+
+#: includes/predefined-sizes.php:11
+msgid "select a size"
+msgstr "izberi velikost"
+
+#: admin/views/ad-sizes/table.php:24
+msgid "Reset ad sizes"
+msgstr "Ponastavi velikosti oglasa"
+
+#: admin/views/ad-sizes/table-cell.php:4
+#: admin/views/ad-sizes/table-header.php:2
+#: admin/views/ad-sizes/table-row.php:10 admin/views/ad-sizes/table.php:10
+msgid "remove size"
+msgstr "odstrani velikost"
+
+#: admin/views/ad-sizes/table-row.php:15 admin/views/ad-sizes/table.php:15
+msgid "new ad size"
+msgstr "nova velikost oglasa"
+
+#: includes/predefined-sizes.php:12
+msgid "fluid"
+msgstr "tekoče"
+
+#: includes/class-advanced-ads-network-gam.php:300
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: admin/views/ad-sizes/table-row.php:16
+msgid "add screen width"
+msgstr "dodaj širino ekrana"
+
+#: admin/views/importer/base-frame.php:7
+msgid "You can choose which ad units to import."
+msgstr "Lahko izbereš, katere oglasne enote uvoziti."
+
+#: admin/views/ads-list.php:78
+msgid "The selected ad is not from the currently connected account. You can still use it though."
+msgstr "Izbran oglas ni iz trenutno povezanega računa. Toda še vedno ga lahko uporabiš."
+
+#: admin/class-advanced-ads-gam-ajax.php:264
+msgid "Open ad overview"
+msgstr "Odpri pregled oglasa"
+
+#: admin/views/importer/base-frame.php:15
+msgid "One ad unit is not yet imported"
+msgstr "Ena oglasna enota ni popolnoma uvožena"
+
+#. amount of ads imported
+#: admin/class-advanced-ads-gam-ajax.php:263
+msgid "%s ad imported."
+msgid_plural "%s ads imported."
+msgstr[0] "%s oglas uvožen."
+msgstr[1] "%s oglasa uvožena."
+msgstr[2] "%s oglasi uvoženi."
+msgstr[3] "%s oglasov uvoženih."
+
+#: admin/views/ads-list.php:80
+msgid "Network code"
+msgstr "Omrežna koda"
+
+#: admin/views/importer/base-frame.php:21
+msgid "Import ad units from your account"
+msgstr "Uvozi oglasne enote iz svojega računa"
+
+#: admin/views/importer/base-frame.php:23
+msgid "Import"
+msgstr "Uvozi"
+
+#: admin/class-advanced-ads-gam-admin.php:206
+msgid "Enter the user meta \"meta_key\" as a value."
+msgstr "Vpiši uporabnikov meta \"meta_key\" kot vrednost."
+
+#: admin/class-advanced-ads-gam-admin.php:201
+msgid "Enter the post meta \"meta_key\" as a value."
+msgstr "Vpiši post meta \"meta_key\" kot vrednost."
+
+#: admin/views/ad-sizes/responsive-sizes.php:12
+msgid "Does not work on AMP."
+msgstr "Ne deluje na AMP."
+
+#: admin/class-advanced-ads-gam-ajax.php:264 admin/views/ad-search.php:54
+#: admin/views/ad-search.php:58 admin/views/ad-search.php:63
+msgid "Close"
+msgstr "Zapri"
+
+#: admin/views/ad-sizes/amp.php:11
+msgid "AMP pages"
+msgstr "strani AMP"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: admin/views/ad-sizes/table.php:23
+msgid "Ad units with the fluid size selected on AMP pages only work when placed below the fold."
+msgstr "Oglasne enote z izbrano tekočo velikostjo delujejo na straneh AMP, samo ko so postavljene pod najprej vidnim delom (bellow the fold)."
+
+#: admin/views/ad-parameters.php:91 admin/views/ads-list.php:81
+msgid "Ad unit name"
+msgstr "Ime oglasne enote"
+
+#: admin/views/gam-connect.php:37
+msgid "Processing authorization"
+msgstr "Procesiram avtorizacijo"
+
+#. link to manual page
+#: admin/views/gam-network-id.php:71
+msgid "Please enable the API option in your Ad Manager account and reload this page. Manual %s"
+msgstr "Prosim omogoči možnost API v svojem računu Ad Manager in ponovno naloži to stran. Priročnik %s"
+
+#: admin/views/gam-network-id.php:36
+msgid "Manual"
+msgstr "Priročnik"
+
+#: admin/views/ad-parameters.php:119
+msgid "Fluid sizes cannot be aligned left or right. Please choose another option for Position."
+msgstr "Tekoče velikosti se ne morejo poravnati levo ali desno. Prosim izberi drugo možnost za Položaj."
+
+#. 1: link to License tab, 2: closing anchor tag
+#: admin/views/gam-network-id.php:82
+msgid "Please re-activate %1$syour license%2$s to update the ad unit list."
+msgstr "Prosim ponovno aktiviraj %1$ssvojo licenco%2$s, da posodobiš seznam oglasnih enot."
+
+#. 1: link to License tab, 2: closing anchor tag
+#: admin/views/ad-parameters.php:49 admin/views/gam-network-id.php:46
+msgid "Please activate %1$syour license%2$s to connect your account."
+msgstr "Prosim aktiviraj %1$ssvojo licenco%2$s, da povežeš svoj račun."
+
+#: admin/views/ad-sizes/responsive-sizes.php:10
+msgid "Automatically filter out ad sizes that are too large for the available space in the frontend."
+msgstr "Avtomatično izloči velikosti oglasov, ki so prevelike za prostor, ki je na voljo v ospredju."
+
+#: admin/views/ad-sizes/table-row.php:17
+msgid "delete"
+msgstr "izbriši"
+
+#: admin/views/ad-sizes/table-row.php:4 admin/views/ad-sizes/table.php:5
+msgid "min. screen width"
+msgstr "min. širina ekrana"
+
+#: admin/views/key-value.php:148
+msgid "Add"
+msgstr "Dodaj"
+
+#: admin/views/key-value.php:52
+msgid "Key-value targeting"
+msgstr "Ciljanje na Key-value"
+
+#: admin/views/ad-parameters.php:66
+msgid "This ad unit does not have any ad sizes"
+msgstr "Ta oglasna enota nima nobenih velikosti oglasa"
+
+#: admin/views/ad-parameters.php:61
+msgid "Ad sizes"
+msgstr "Velikosti oglasa"
+
+#: admin/views/ads-list.php:73
+msgid "Update ad"
+msgstr "Posodobi oglas"
+
+#: admin/views/ads-list.php:71
+msgid "The selected ad unit has changed in your GAM account. Please re-save this ad to apply the new changes."
+msgstr "Izbrana oglasna enota se je spremenila v tvojem računu GAM. Prosim ponovno shrani ta oglas, da uveljaviš nove spremembe."
+
+#: admin/class-advanced-ads-gam-admin.php:283 admin/views/key-value.php:94
+msgid "Any terms, including categories and tags. Enabled on single pages."
+msgstr "Kakršnikoli pogoji, kar vključuje kategorije in oznake. Omogočeno na enojnih straneh."
+
+#: admin/class-advanced-ads-gam-admin.php:282 admin/views/key-value.php:90
+msgid "Any terms, including categories and tags. Enabled on single and archive pages."
+msgstr "Kakršnikoli pogoji, kar vključuje kategorije in oznake. Omogočeno na enojnih in arhivskih straneh."
+
+#: admin/class-advanced-ads-gam-admin.php:281 admin/views/key-value.php:58
+#: admin/views/key-value.php:79 admin/views/key-value.php:145
+msgid "Value"
+msgstr "Vrednost"
+
+#: admin/class-advanced-ads-gam-admin.php:280 admin/views/key-value.php:57
+#: admin/views/key-value.php:75 admin/views/key-value.php:142
+msgid "Key"
+msgstr "Ključ"
+
+#: admin/class-advanced-ads-gam-admin.php:279 admin/views/key-value.php:56
+#: admin/views/key-value.php:71 admin/views/key-value.php:130
+msgid "Type"
+msgstr "Vrsta"
+
+#: admin/class-advanced-ads-gam-admin.php:237
+#: admin/class-advanced-ads-gam-admin.php:256
+#: admin/class-advanced-ads-gam-admin.php:259
+msgid "Connect to GAM"
+msgstr "Poveži z GAM"
+
+#: admin/class-advanced-ads-gam-admin.php:217
+msgid "send also on archive pages"
+msgstr "pošlji tudi na arhivskih straneh"
+
+#: admin/class-advanced-ads-gam-admin.php:216
+msgid "Any terms on single pages, including categories and tags."
+msgstr "Kakršnikoli pogoji na enojnih straneh, kar vključuje kategorije in oznake."
+
+#: admin/class-advanced-ads-gam-admin.php:215
+msgid "Categories/Tags/Terms"
+msgstr "Kategorije/Oznake/Pogoji"
+
+#: admin/class-advanced-ads-gam-admin.php:211
+msgid "Taxonomy of archive pages."
+msgstr "Taksonomija arhivskih strani."
+
+#: admin/class-advanced-ads-gam-admin.php:210
+msgid "Taxonomy"
+msgstr "Taksonomija"
+
+#: admin/class-advanced-ads-gam-admin.php:205
+msgid "User meta"
+msgstr "Uporabnikov meta"
+
+#: admin/class-advanced-ads-gam-admin.php:200
+msgid "Post meta"
+msgstr "Meta objave"
+
+#: admin/class-advanced-ads-gam-admin.php:196
+msgid "ID of the Advanced Ads placement."
+msgstr "ID postavitve Advanced Ads"
+
+#: admin/class-advanced-ads-gam-admin.php:195
+msgid "Placement ID"
+msgstr "ID postavitve"
+
+#: admin/class-advanced-ads-gam-admin.php:191
+msgid "ID of the current post or page."
+msgstr "Id trenutnega prispevka ali strani."
+
+#. 1: 'single', 2: 'archive', 3: 'home', 4: 'blog'
+#: admin/class-advanced-ads-gam-admin.php:190
+msgid "Page ID"
+msgstr "ID strani"
+
+#: admin/class-advanced-ads-gam-admin.php:178
+msgid "Page type"
+msgstr "Vrsta strani"
+
+#: admin/class-advanced-ads-gam-admin.php:173
+msgid "Page slug"
+msgstr "Polž (slug) strani"
+
+#: admin/class-advanced-ads-gam-admin.php:168
+msgid "Post types"
+msgstr "Vrste objav"
+
+#: admin/class-advanced-ads-gam-admin.php:162
+msgid "Custom key"
+msgstr "Ključ po meri"
+
+#: includes/class-advanced-ads-network-gam.php:299
+#: admin/views/key-value.php:120
+msgid "Remove"
+msgstr "Odstrani"
+
+#. Name of the plugin
+msgid "Advanced Ads – Google Ad Manager Integration"
+msgstr "Advanced Ads – Google Ad Manager Integration"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/google-ad-manager/"
+msgstr "https://wpadvancedads.com/add-ons/google-ad-manager/"
+
+#: admin/views/gam-connect.php:55
+msgid "Please select the network account"
+msgstr "Prosim izberi omrežni račun"
+
+#. Description of the plugin
+msgid "Google Ad Manager Integration for WordPress"
+msgstr "Google Ad Manager integracija za WordPress"
+
+#: includes/class-advanced-ads-network-gam.php:119
+msgid "Collapse empty elements"
+msgstr "Strni prazne elemente"
+
+#: includes/class-advanced-ads-network-gam.php:108
+msgid "Ad Manager account"
+msgstr "Račun Ad Manager"
+
+#: advanced-ads-gam.php:62
+msgid "<strong>Advanced Ads – Google Ad Manager Integration</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong>Advanced Ads – Google Ad Manager Integration</strong> je razširitev za brezplačni vtičnik Advanced Ads."
+
+#: advanced-ads-gam.php:59
+msgid "Install Now"
+msgstr "Namesti zdaj"
+
+#: advanced-ads-gam.php:57
+msgid "Activate Now"
+msgstr "Aktiviraj zdaj"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#: admin/views/gam-network-id.php:32
+msgid "Connect your Google Ad Manager account"
+msgstr "Poveži svoj račun Google Ad Manager"
+
+#: admin/views/gam-network-id.php:31 admin/views/gam-network-id.php:40
+msgid "Connect account"
+msgstr "Poveži račun"
+
+#: admin/views/gam-network-id.php:23
+msgid "Test account"
+msgstr "Preveri račun"
+
+#: admin/views/gam-network-id.php:17
+msgid "Revoke access"
+msgstr "Odstrani dostop"
+
+#: admin/views/gam-connect.php:59
+msgid "Select account"
+msgstr "Izberi račun"
+
+#: admin/views/gam-empty-div.php:11
+msgid "Fill space when ad is loaded"
+msgstr "Zapolni prostor, ko se oglas naloži"
+
+#: admin/views/gam-empty-div.php:10
+msgid "Collapse if empty"
+msgstr "Strni, če je prazno"
+
+#: admin/views/gam-empty-div.php:9
+msgid "Do not collapse"
+msgstr "Ne strni"
+
+#: admin/views/ads-list.php:38 admin/views/ads-list.php:47
+msgid "You need to connect to a Google Ad Manager account"
+msgstr "Moraš povezati z računom Google Ad Manager"
+
+#: admin/views/ads-list.php:26 admin/views/ads-list.php:60
+msgid "Ad Unit Code"
+msgstr "Koda oglasne enote"
+
+#: admin/views/ad-search.php:28 admin/views/ads-list.php:25
+#: admin/views/ads-list.php:59 admin/views/importer/import-table.php:14
+msgid "Description"
+msgstr "Opis"
+
+#: admin/views/ad-search.php:27 admin/views/ads-list.php:24
+#: admin/views/ads-list.php:58 admin/views/importer/import-table.php:13
+msgid "Name"
+msgstr "Ime"
+
+#: admin/class-advanced-ads-gam-admin.php:368
+msgid "Google Ad Manager Integration"
+msgstr "Google Ad Manager integracija"
+
+#: admin/class-advanced-ads-gam-api-soap.php:427 admin/views/gam-connect.php:51
+msgid "No Ad Manager network found in this Google account"
+msgstr "V tem Googlu računu ne najdem omrežja Ad Manager"
+
+#. GAM account holder name.
+#: admin/class-advanced-ads-gam-oauth2.php:101
+msgid "Error while renewing access token for \"%s\""
+msgstr "Napaka pri obnavljanju žetona dostopa za \"%s\""
+
+#: includes/class-advanced-ads-gam-ad-type.php:26
+msgid "Use ad units from your Google Ad Manager account"
+msgstr "Uporabi oglasne enote s svojega računa Google Ad Manager"
+
+#: includes/class-advanced-ads-gam-ad-type.php:25
+msgid "Google Ad Manager"
+msgstr "Google Ad Manager"

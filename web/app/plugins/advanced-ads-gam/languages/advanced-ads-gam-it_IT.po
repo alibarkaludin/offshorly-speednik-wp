@@ -1,0 +1,511 @@
+# Translation of Google Ad Manager in Italian
+# This file is distributed under the same license as the Google Ad Manager package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-26 16:26:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: it\n"
+"Project-Id-Version: Google Ad Manager\n"
+
+#: admin/views/gam-connect.php:44
+msgid "Switching transport method"
+msgstr "Cambio metodo di trasporto"
+
+#. translators: amount of ads that can be imported from the Google account
+#: admin/views/importer/base-frame.php:11
+msgid "%d ad unit is not yet imported."
+msgid_plural "%d ad units are not yet imported."
+msgstr[0] "%d unità pubblicitaria non è ancora stata importata."
+msgstr[1] "%d unità pubblicitarie non sono ancora state importate."
+
+#: admin/views/ad-list-rows.php:11
+msgid "Update ad unit"
+msgstr "Aggiorna unità pubblicitaria"
+
+#: admin/class-advanced-ads-gam-api-soap.php:416
+msgid "Unknown response format"
+msgstr "Formato di risposta sconosciuto"
+
+#: admin/class-advanced-ads-gam-oauth2.php:245
+msgid "Unknown error while submitting code"
+msgstr "Errore sconosciuto durante invio del codice"
+
+#. translators: Google Ad Manager account ID
+#: admin/class-advanced-ads-gam-oauth2.php:121
+msgid "Unknown error while renewing access token for \"%s\""
+msgstr "Errore sconosciuto durante il rinnovo del token di accesso per \"%s\""
+
+#: admin/views/ad-parameters.php:88
+msgid "The selected ad unit is not in your ad list."
+msgstr "Unità pubblicitaria selezionata non è nel tuo elenco di annunci."
+
+#: admin/views/ad-search.php:51
+msgid "The listed ad units are already imported."
+msgstr "Le unità pubblicitarie elencate sono già importate."
+
+#: admin/class-advanced-ads-gam-api-rest.php:85
+msgid "Testing the API"
+msgstr "Testa API"
+
+#: admin/views/ad-list-rows.php:21 admin/views/ads-list.php:63
+msgid "Search ad units"
+msgstr "Cerca unità pubblicitarie"
+
+#: admin/views/ad-search.php:8
+msgid "Search"
+msgstr "Cerca"
+
+#: admin/class-advanced-ads-gam-ajax.php:411
+msgid "Not Authorized"
+msgstr "Non autorizzato"
+
+#: admin/class-advanced-ads-gam-api-rest.php:170
+msgid "No SOAP. unknown response format >> getting ad units list"
+msgstr "Nessun SOAP. formato di risposta sconosciuto >> recupero elenco delle unità pubblicitarie"
+
+#: admin/class-advanced-ads-gam-api-rest.php:155
+msgid "No SOAP. No access token >> getting ad units list"
+msgstr "Nessun SOAP. Nessun token di accesso >> recupero elenco delle unità pubblicitarie"
+
+#: admin/class-advanced-ads-gam-api-rest.php:196
+msgid "No SOAP. No access token >> getting ad by"
+msgstr "Nessun SOAP. Nessun token di accesso >> recupero annuncio da"
+
+#: admin/class-advanced-ads-gam-api-rest.php:123
+msgid "No SOAP. Getting network list"
+msgstr "Nessun SOAP. Recupero elenco rete"
+
+#: admin/class-advanced-ads-gam-api-rest.php:176
+msgid "No SOAP. Getting all units"
+msgstr "Nessun SOAP. Recupero tutte le unità"
+
+#: admin/class-advanced-ads-gam-api-rest.php:215
+msgid "No SOAP. Getting ads by"
+msgstr "Nessun SOAP. Recupero annunci da"
+
+#: admin/views/ad-search.php:31
+msgid "No ad found matching that name"
+msgstr "Nessun annuncio trovato corrispondente a quel nome"
+
+#: admin/views/ad-search.php:57
+msgid "Load into ad list"
+msgstr "Carica in elenco annunci"
+
+#: admin/class-advanced-ads-gam-api-rest.php:46
+#: admin/class-advanced-ads-gam-oauth2.php:69
+msgid "Invalid JSON string"
+msgstr "Stringa JSON non valida"
+
+#: admin/class-advanced-ads-gam-oauth2.php:227
+msgid "Error while submitting code"
+msgstr "Errore durante invio del codice"
+
+#: admin/views/ad-search.php:5
+msgid "Enter an ad unit name from your Google Ad Manager account"
+msgstr "Inserisci il nome di una unità pubblicitaria dal tuo account Google Ad Manager"
+
+#: admin/class-advanced-ads-gam-ajax.php:415
+msgid "Bad request"
+msgstr "Bad request"
+
+#: admin/views/ad-list-rows.php:12
+msgid "Remove ad unit"
+msgstr "Rimuovi unità pubblicitaria"
+
+#. translators: The string is followed by the sanitized key-value input before
+#. it is saved
+#: includes/class-advanced-ads-network-gam.php:302
+msgid "Will be created as"
+msgstr "Verrà creata come"
+
+#: includes/predefined-sizes.php:11
+msgid "select a size"
+msgstr "seleziona una dimensione"
+
+#: admin/views/ad-sizes/table.php:24
+msgid "Reset ad sizes"
+msgstr "Reimposta dimensioni dell'annuncio"
+
+#: admin/views/ad-sizes/table-cell.php:4
+#: admin/views/ad-sizes/table-header.php:2
+#: admin/views/ad-sizes/table-row.php:10 admin/views/ad-sizes/table.php:10
+msgid "remove size"
+msgstr "rimuovi dimensione"
+
+#: admin/views/ad-sizes/table-row.php:15 admin/views/ad-sizes/table.php:15
+msgid "new ad size"
+msgstr "nuova dimensione dell'annuncio"
+
+#: includes/predefined-sizes.php:12
+msgid "fluid"
+msgstr "fluida"
+
+#: includes/class-advanced-ads-network-gam.php:300
+msgid "Cancel"
+msgstr "Annulla"
+
+#: admin/views/ad-sizes/table-row.php:16
+msgid "add screen width"
+msgstr "aggiungi larghezza dello schermo"
+
+#: admin/views/importer/base-frame.php:7
+msgid "You can choose which ad units to import."
+msgstr "Puoi scegliere quali unità pubblicitarie importare."
+
+#: admin/views/ads-list.php:78
+msgid "The selected ad is not from the currently connected account. You can still use it though."
+msgstr "Annuncio selezionato non è dell'account attualmente connesso. Puoi ancora usarlo però."
+
+#: admin/class-advanced-ads-gam-ajax.php:246
+msgid "Open ad overview"
+msgstr "Apri panoramica annunci"
+
+#: admin/views/importer/base-frame.php:15
+msgid "One ad unit is not yet imported"
+msgstr "Una unità pubblicitaria non è ancora stata importata"
+
+#. translators: amount of ads imported
+#: admin/class-advanced-ads-gam-ajax.php:245
+msgid "%s ad imported."
+msgid_plural "%s ads imported."
+msgstr[0] "%s annuncio importato."
+msgstr[1] "%s annunci importati."
+
+#: admin/views/ads-list.php:80
+msgid "Network code"
+msgstr "Codice di rete"
+
+#: admin/views/importer/base-frame.php:21
+msgid "Import ad units from your account"
+msgstr "Importa unità pubblicitarie dal tuo account"
+
+#: admin/views/importer/base-frame.php:23
+msgid "Import"
+msgstr "Importa"
+
+#: admin/class-advanced-ads-gam-admin.php:208
+msgid "Enter the user meta \"meta_key\" as a value."
+msgstr "Immettere il meta utente \"meta_key\" come valore."
+
+#: admin/class-advanced-ads-gam-admin.php:203
+msgid "Enter the post meta \"meta_key\" as a value."
+msgstr "Inserisci il post meta \"meta_key\" come valore."
+
+#: admin/views/ad-sizes/responsive-sizes.php:12
+msgid "Does not work on AMP."
+msgstr "Non funziona su AMP."
+
+#: admin/class-advanced-ads-gam-ajax.php:246 admin/views/ad-search.php:52
+#: admin/views/ad-search.php:56 admin/views/ad-search.php:61
+msgid "Close"
+msgstr "Chiudi"
+
+#: admin/views/ad-sizes/amp.php:11
+msgid "AMP pages"
+msgstr "Pagine AMP"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: admin/views/ad-sizes/table.php:23
+msgid "Ad units with the fluid size selected on AMP pages only work when placed below the fold."
+msgstr "Le unità pubblicitarie con la dimensione fluida selezionata sulle pagine AMP funzionano solo se posizionate below the fold."
+
+#: admin/views/ad-parameters.php:90 admin/views/ads-list.php:81
+msgid "Ad unit name"
+msgstr "Nome unità pubblicitaria"
+
+#: admin/views/gam-connect.php:37
+msgid "Processing authorization"
+msgstr "Processo di autorizzazione"
+
+#. translators: link to manual page
+#: admin/views/gam-network-id.php:65
+msgid "Please enable the API option in your Ad Manager account and reload this page. Manual %s"
+msgstr "Abilita l'opzione API nel tuo account Ad Manager e ricarica questa pagina. Manuale %s"
+
+#: admin/views/ad-parameters.php:96
+msgid "Fluid sizes cannot be aligned left or right. Please choose another option for Position."
+msgstr "Le dimensioni fluide non possono essere allineate a sinistra o a destra. Scegli un'altra opzione per Posizione."
+
+#. translators: 1: link to License tab, 2: closing anchor tag
+#: admin/views/gam-network-id.php:76
+msgid "Please re-activate %1$syour license%2$s to update the ad unit list."
+msgstr "Riattiva %1$sla tua licenza%2$s per aggiornare l'elenco delle unità pubblicitarie."
+
+#. translators: 1: link to License tab, 2: closing anchor tag
+#: admin/views/ad-parameters.php:48 admin/views/gam-network-id.php:40
+msgid "Please activate %1$syour license%2$s to connect your account."
+msgstr "Attiva %1$sla tua licenza%2$s per connettere il tuo account."
+
+#: admin/views/ad-sizes/responsive-sizes.php:10
+msgid "Automatically filter out ad sizes that are too large for the available space in the frontend."
+msgstr "Filtra automaticamente le dimensioni degli annunci troppo grandi per lo spazio disponibile nel frontend."
+
+#: admin/views/ad-sizes/table-row.php:17
+msgid "delete"
+msgstr "elimina"
+
+#: admin/views/ad-sizes/table-row.php:4 admin/views/ad-sizes/table.php:5
+msgid "min. screen width"
+msgstr "min. larghezza schermo"
+
+#: admin/views/key-value.php:148
+msgid "Add"
+msgstr "Aggiungi"
+
+#: admin/views/key-value.php:52
+msgid "Key-value targeting"
+msgstr "Valori chiave di targeting"
+
+#: admin/views/ad-parameters.php:65
+msgid "This ad unit does not have any ad sizes"
+msgstr "Questa unità pubblicitaria non ha dimensioni annuncio"
+
+#: admin/views/ad-parameters.php:60
+msgid "Ad sizes"
+msgstr "Dimensioni annuncio"
+
+#: admin/views/ads-list.php:73
+msgid "Update ad"
+msgstr "Aggiorna annuncio"
+
+#: admin/views/ads-list.php:71
+msgid "The selected ad unit has changed in your GAM account. Please re-save this ad to apply the new changes."
+msgstr "L&rsquo;unità pubblicitaria selezionata è cambiata nel tuo account GAM. Salva nuovamente questo annuncio per applicare le nuove modifiche."
+
+#: admin/class-advanced-ads-gam-admin.php:285 admin/views/key-value.php:94
+msgid "Any terms, including categories and tags. Enabled on single pages."
+msgstr "Qualsiasi termine, comprese categorie e tag. Abilitato su singole pagine."
+
+#: admin/class-advanced-ads-gam-admin.php:284 admin/views/key-value.php:90
+msgid "Any terms, including categories and tags. Enabled on single and archive pages."
+msgstr "Qualsiasi termine, comprese categorie e tag. Abilitato su pagine singole e di archivio."
+
+#: admin/class-advanced-ads-gam-admin.php:283 admin/views/key-value.php:58
+#: admin/views/key-value.php:79 admin/views/key-value.php:145
+msgid "Value"
+msgstr "Valore"
+
+#: admin/class-advanced-ads-gam-admin.php:282 admin/views/key-value.php:57
+#: admin/views/key-value.php:75 admin/views/key-value.php:142
+msgid "Key"
+msgstr "Chiave"
+
+#: admin/class-advanced-ads-gam-admin.php:281 admin/views/key-value.php:56
+#: admin/views/key-value.php:71 admin/views/key-value.php:130
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/class-advanced-ads-gam-admin.php:239
+#: admin/class-advanced-ads-gam-admin.php:258
+#: admin/class-advanced-ads-gam-admin.php:261
+msgid "Connect to GAM"
+msgstr "Connettiti a GAM"
+
+#: admin/class-advanced-ads-gam-admin.php:219
+msgid "send also on archive pages"
+msgstr "invia anche su pagine di archivio"
+
+#: admin/class-advanced-ads-gam-admin.php:218
+msgid "Any terms on single pages, including categories and tags."
+msgstr "Qualsiasi termine su singole pagine, comprese categorie e tag."
+
+#: admin/class-advanced-ads-gam-admin.php:217
+msgid "Categories/Tags/Terms"
+msgstr "Categorie/tag /termini"
+
+#: admin/class-advanced-ads-gam-admin.php:213
+msgid "Taxonomy of archive pages."
+msgstr "Tassonomia delle pagine di archivio."
+
+#: admin/class-advanced-ads-gam-admin.php:212
+msgid "Taxonomy"
+msgstr "Tassonomia"
+
+#: admin/class-advanced-ads-gam-admin.php:207
+msgid "User meta"
+msgstr "Meta utente"
+
+#: admin/class-advanced-ads-gam-admin.php:202
+msgid "Post meta"
+msgstr "Meta articolo"
+
+#: admin/class-advanced-ads-gam-admin.php:198
+msgid "ID of the Advanced Ads placement."
+msgstr "ID del posizionamento Advanced Ads."
+
+#: admin/class-advanced-ads-gam-admin.php:197
+msgid "Placement ID"
+msgstr "ID posizionamento"
+
+#: admin/class-advanced-ads-gam-admin.php:193
+msgid "ID of the current post or page."
+msgstr "ID della pagina o articolo corrente."
+
+#: admin/class-advanced-ads-gam-admin.php:192
+msgid "Page ID"
+msgstr "ID pagina"
+
+#: admin/class-advanced-ads-gam-admin.php:180
+msgid "Page type"
+msgstr "Tipo di pagina"
+
+#: admin/class-advanced-ads-gam-admin.php:175
+msgid "Page slug"
+msgstr "Slug pagina"
+
+#: admin/class-advanced-ads-gam-admin.php:170
+msgid "Post types"
+msgstr "Tipo di articolo"
+
+#: admin/class-advanced-ads-gam-admin.php:164
+msgid "Custom key"
+msgstr "Chiave personalizzata"
+
+#: includes/class-advanced-ads-network-gam.php:345
+msgid "one day ago"
+msgid_plural "%s days ago"
+msgstr[0] "un giorno fa"
+msgstr[1] "%s giorni fa"
+
+#: includes/class-advanced-ads-network-gam.php:342
+msgid "less than 24 hours ago"
+msgstr "meno di 24 ore fa"
+
+#: includes/class-advanced-ads-network-gam.php:340
+msgid "less than an hour ago"
+msgstr "meno di un&rsquo;ora fa"
+
+#: includes/class-advanced-ads-network-gam.php:338
+msgid "just now"
+msgstr "proprio adesso"
+
+#: includes/class-advanced-ads-network-gam.php:334
+msgid "unknown"
+msgstr "sconosciuto"
+
+#: includes/class-advanced-ads-network-gam.php:332
+msgid "Last updated:"
+msgstr "Ultimo aggiornamento:"
+
+#: admin/views/key-value.php:120
+#: includes/class-advanced-ads-network-gam.php:299
+msgid "Remove"
+msgstr "Rimuovi"
+
+#. Plugin Name of the plugin
+msgid "Advanced Ads – Google Ad Manager Integration"
+msgstr "Advanced Ads – Google Ad Manager Integration"
+
+#. Plugin URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/google-ad-manager/"
+msgstr "https://wpadvancedads.com/add-ons/google-ad-manager/"
+
+#: admin/views/gam-connect.php:55
+msgid "Please select the network account"
+msgstr "Seleziona l&rsquo;account di rete"
+
+#. Description of the plugin
+msgid "Google Ad Manager Integration for WordPress"
+msgstr "Integrazione di Google Ad Manager per WordPress"
+
+#: includes/class-advanced-ads-network-gam.php:119
+msgid "Collapse empty elements"
+msgstr "Comprimi gli elementi vuoti"
+
+#: includes/class-advanced-ads-network-gam.php:108
+msgid "Ad Manager account"
+msgstr "Account Ad Manager"
+
+#: advanced-ads-gam.php:62
+msgid "<strong>Advanced Ads – Google Ad Manager Integration</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong>Advanced Ads – Google Ad Manager Integration</strong> è una estensione gratuita per il plugin Advanced Ads."
+
+#: advanced-ads-gam.php:59
+msgid "Install Now"
+msgstr "Installa ora"
+
+#: advanced-ads-gam.php:57
+msgid "Activate Now"
+msgstr "Attiva ora"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#: admin/views/gam-network-id.php:32
+msgid "Connect your Google Ad Manager account"
+msgstr "Collega il tuo account Google Ad Manager"
+
+#: admin/views/gam-network-id.php:31 admin/views/gam-network-id.php:34
+msgid "Connect account"
+msgstr "Collega il tuo account"
+
+#: admin/views/gam-network-id.php:23
+msgid "Test account"
+msgstr "Test account"
+
+#: admin/views/gam-network-id.php:17
+msgid "Revoke access"
+msgstr "Revoca accesso"
+
+#: admin/views/gam-connect.php:59
+msgid "Select account"
+msgstr "Seleziona account"
+
+#: admin/views/gam-empty-div.php:11
+msgid "Fill space when ad is loaded"
+msgstr "Riempi lo spazio quando viene caricato l&rsquo;annuncio"
+
+#: admin/views/gam-empty-div.php:10
+msgid "Collapse if empty"
+msgstr "Comprimi se vuoto"
+
+#: admin/views/gam-empty-div.php:9
+msgid "Do not collapse"
+msgstr "Non comprimere"
+
+#: admin/views/ads-list.php:38 admin/views/ads-list.php:47
+msgid "You need to connect to a Google Ad Manager account"
+msgstr "Devi connetterti a un account Google Ad Manager"
+
+#: admin/views/ads-list.php:26 admin/views/ads-list.php:60
+msgid "Ad Unit Code"
+msgstr "Codice unità pubblicitaria"
+
+#: admin/views/ad-search.php:26 admin/views/ads-list.php:25
+#: admin/views/ads-list.php:59 admin/views/importer/import-table.php:14
+msgid "Description"
+msgstr "Descrizione"
+
+#: admin/views/ad-search.php:25 admin/views/ads-list.php:24
+#: admin/views/ads-list.php:58 admin/views/importer/import-table.php:13
+msgid "Name"
+msgstr "Nome"
+
+#: admin/class-advanced-ads-gam-admin.php:372
+msgid "Google Ad Manager Integration"
+msgstr "Integrazione di Google Ad Manager"
+
+#: admin/class-advanced-ads-gam-api-soap.php:427 admin/views/gam-connect.php:51
+msgid "No Ad Manager network found in this Google account"
+msgstr "Nessuna rete Ad Manager trovata in questo account Google"
+
+#. translators: GAM account holder name.
+#: admin/class-advanced-ads-gam-oauth2.php:101
+msgid "Error while renewing access token for \"%s\""
+msgstr "Errore durante il rinnovo del token di accesso per \"%s\""
+
+#: includes/class-advanced-ads-gam-ad-type.php:26
+msgid "Use ad units from your Google Ad Manager account"
+msgstr "Utilizza le unità pubblicitarie dal tuo account Google Ad Manager"
+
+#: includes/class-advanced-ads-gam-ad-type.php:25
+msgid "Google Ad Manager"
+msgstr "Google Ad Manager"

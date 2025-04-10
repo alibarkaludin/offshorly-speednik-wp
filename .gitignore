@@ -165,3 +165,8 @@ web/app/themes/speednik-theme/node_modules/
 
 !web/app/themes/speednik-theme/node_modules/uikit/
 !web/app/themes/speednik-theme/node_modules/uikit/*
+
+# Paid plugins
+!web/app/plugins/advanced-ads-pro
+!web/app/plugins/advanced-ads-gam
+!web/app/plugins/wp-all-import-pro

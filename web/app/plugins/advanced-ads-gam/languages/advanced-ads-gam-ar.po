@@ -1,0 +1,557 @@
+# Translation of Google Ad Manager in Arabic
+# This file is distributed under the same license as the Google Ad Manager package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-10 21:03:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ar\n"
+"Project-Id-Version: Google Ad Manager\n"
+
+#: admin/views/ads-list.php:55
+msgid "your license"
+msgstr "ترخيصك الخاص"
+
+#: admin/views/ads-list.php:135
+msgid "Select an ad unit"
+msgstr "اختر وحدة إعلان"
+
+#: admin/views/ads-list.php:133
+msgid "Select a different ad unit"
+msgstr "اختر وحدة إعلان مختلفة"
+
+#: admin/views/ads-list.php:177
+msgid "Remove from available ad units"
+msgstr "إزالة من وحدات الإعلانات المتاحة"
+
+#: admin/views/ads-list.php:141
+msgid "Refresh ad unit data"
+msgstr "تحديث بيانات وحدة الإعلان"
+
+#. link to license tab of the settings page.
+#: admin/views/ads-list.php:54
+msgid "Please activate %s to connect your account."
+msgstr "يرجى تفعيل %s لربط حسابك."
+
+#: admin/class-advanced-ads-gam-admin.php:298
+msgid "default"
+msgstr "افتراضي"
+
+#: admin/views/ads-list.php:61 admin/views/ads-list.php:71
+msgid "Connect"
+msgstr "اتصال"
+
+#: admin/views/ads-list.php:21 admin/views/ads-list.php:67
+#: admin/views/ads-list.php:77
+msgid "Ad unit"
+msgstr "وحدة الإعلان"
+
+#: admin/views/gam-network-id.php:34
+msgid "Please make sure that the API in your GAM account is enabled."
+msgstr "يرجى التأكد من تمكين واجهة برمجة التطبيقات في حساب GAM الخاص بك"
+
+#. 1: anchor tag that links to Google's docs, 2: closing anchor tag
+#: admin/views/ad-parameters.php:92
+msgid "Important: To comply with Google policy and enable your inventory to compete on Ad Exchange, %1$syou must declare which portions of your inventory refresh%2$s."
+msgstr "هام: للالتزام بسياسة Google وتمكين مخزونك من المنافسة على التبادل اعلاني ، يجب أن تعلن %1$s عن أجزاء المخزون التي تم تحديثها %2$s."
+
+#: admin/views/ad-parameters.php:84
+msgid "seconds"
+msgstr "ثواني"
+
+#: admin/views/ad-parameters.php:80
+msgid "Auto-refresh"
+msgstr "تحديث تلقائي"
+
+#: admin/views/gam-connect.php:50
+msgid "Switching transport method"
+msgstr "تبديل طريقة النقل"
+
+#. amount of ads that can be imported from the Google account
+#: admin/views/importer/base-frame.php:11
+msgid "%d ad unit is not yet imported."
+msgid_plural "%d ad units are not yet imported."
+msgstr[0] "لم يتم استيراد %d وحدة إعلانية حتى الآن."
+msgstr[1] "لم يتم استيراد %d وحدة إعلانية حتى الآن."
+msgstr[2] "لم يتم استيراد وحدتين (%d) إعلانيتين حتى الآن."
+msgstr[3] "لم يتم استيراد %d وحدات إعلانية حتى الآن."
+msgstr[4] "لم يتم استيراد %d وحدة إعلانية حتى الآن."
+msgstr[5] "لم يتم استيراد %d وحدة إعلانية حتى الآن."
+
+#: admin/views/ad-list-rows.php:11
+msgid "Update ad unit"
+msgstr "تحديث الوحدة الإعلانية"
+
+#: admin/class-advanced-ads-gam-api-soap.php:416
+msgid "Unknown response format"
+msgstr "تنسيق استجابة غير معروف"
+
+#: admin/class-advanced-ads-gam-oauth2.php:245
+msgid "Unknown error while submitting code"
+msgstr "خطأ غير معروف أثناء إرسال الكود"
+
+#. Google Ad Manager account ID
+#: admin/class-advanced-ads-gam-oauth2.php:121
+msgid "Unknown error while renewing access token for \"%s\""
+msgstr "خطأ غير معروف أثناء تجديد رمز الوصول لـ \"%s\""
+
+#: admin/views/ad-parameters.php:73
+msgid "The selected ad unit is not in your ad list."
+msgstr "الوحدة الإعلانية المحددة ليست في قائمة الإعلانات الخاصة بك."
+
+#: admin/views/ad-search.php:52
+msgid "The listed ad units are already imported."
+msgstr "تم استيراد الوحدات الإعلانية المدرجة بالفعل."
+
+#: admin/class-advanced-ads-gam-api-rest.php:85
+msgid "Testing the API"
+msgstr "اختبار API"
+
+#: admin/views/ad-list-rows.php:21
+msgid "Search ad units"
+msgstr "بحث في الوحدات الإعلانية"
+
+#: admin/views/ad-search.php:10
+msgid "Search"
+msgstr "بحث"
+
+#: admin/class-advanced-ads-gam-ajax.php:436
+msgid "Not Authorized"
+msgstr "غير مخول"
+
+#: admin/class-advanced-ads-gam-api-rest.php:170
+msgid "No SOAP. unknown response format >> getting ad units list"
+msgstr "SOAP غير متاح. شكل استجابة غير معروف >> الحصول على قائمة الوحدات الإعلانية"
+
+#: admin/class-advanced-ads-gam-api-rest.php:155
+msgid "No SOAP. No access token >> getting ad units list"
+msgstr "SOAP غير متاح. لا يوجد رمز وصول >> الحصول على قائمة الوحدات الإعلانية"
+
+#: admin/class-advanced-ads-gam-api-rest.php:196
+msgid "No SOAP. No access token >> getting ad by"
+msgstr "SOAP غير متاح. لا يوجد رمز وصول >> الحصول على إعلان عن طريق"
+
+#: admin/class-advanced-ads-gam-api-rest.php:123
+msgid "No SOAP. Getting network list"
+msgstr "SOAP غير متاح. الحصول على قائمة الشبكة"
+
+#: admin/class-advanced-ads-gam-api-rest.php:176
+msgid "No SOAP. Getting all units"
+msgstr "SOAP غير متاح. الحصول على جميع الوحدات"
+
+#: admin/class-advanced-ads-gam-api-rest.php:215
+msgid "No SOAP. Getting ads by"
+msgstr "SOAP غير متاح. الحصول على الإعلانات عن طريق"
+
+#: admin/views/ad-search.php:28
+msgid "No ad found matching that name"
+msgstr "لم يتم العثور على إعلان يطابق هذا الاسم"
+
+#: admin/views/ad-search.php:58
+msgid "Load into ad list"
+msgstr "تحميل في قائمة الإعلانات"
+
+#: admin/class-advanced-ads-gam-api-rest.php:46
+#: admin/class-advanced-ads-gam-oauth2.php:69
+msgid "Invalid JSON string"
+msgstr "سلسلة JSON غير صالحة"
+
+#: admin/class-advanced-ads-gam-oauth2.php:227
+msgid "Error while submitting code"
+msgstr "خطأ أثناء إرسال الكود"
+
+#: admin/views/ad-search.php:7
+msgid "Enter an ad unit name from your Google Ad Manager account"
+msgstr "أدخل اسم وحدة إعلانية من حساب مدير إعلانات Google الخاص بك"
+
+#: admin/class-advanced-ads-gam-ajax.php:440
+msgid "Bad request"
+msgstr "طلب غير صالح"
+
+#: admin/views/ad-list-rows.php:12
+msgid "Remove ad unit"
+msgstr "إزالة الوحدة الإعلانية"
+
+#. The string is followed by the sanitized key-value input before it is saved
+#: includes/class-advanced-ads-network-gam.php:302
+msgid "Will be created as"
+msgstr "سيتم إنشاؤه باسم"
+
+#: includes/predefined-sizes.php:11
+msgid "select a size"
+msgstr "اختر حجما"
+
+#: admin/views/ad-sizes/table.php:24
+msgid "Reset ad sizes"
+msgstr "إعادة تعيين أحجام الإعلانات"
+
+#: admin/views/ad-sizes/table-cell.php:4
+#: admin/views/ad-sizes/table-header.php:2
+#: admin/views/ad-sizes/table-row.php:15 admin/views/ad-sizes/table.php:10
+msgid "remove size"
+msgstr "إزالة الحجم"
+
+#: admin/views/ad-sizes/table-row.php:20 admin/views/ad-sizes/table.php:15
+msgid "new ad size"
+msgstr "حجم الإعلان الجديد"
+
+#: includes/predefined-sizes.php:12
+msgid "fluid"
+msgstr "مرن"
+
+#: includes/class-advanced-ads-network-gam.php:300 admin/views/ads-list.php:120
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: admin/views/ad-sizes/table-row.php:21
+msgid "add screen width"
+msgstr "أضف عرض الشاشة"
+
+#: admin/views/importer/base-frame.php:7
+msgid "You can choose which ad units to import."
+msgstr "يمكنك اختيار الوحدات الإعلانية المراد استيرادها."
+
+#: admin/views/ads-list.php:102
+msgid "The selected ad is not from the currently connected account. You can still use it though."
+msgstr "الإعلان المحدد ليس من الحساب المتصل حاليًا. لا يزال بإمكانك استخدامه بالرغم من ذلك."
+
+#: admin/class-advanced-ads-gam-ajax.php:267
+msgid "Open ad overview"
+msgstr "افتح نظرة عامة على الإعلان"
+
+#: admin/views/importer/base-frame.php:15
+msgid "One ad unit is not yet imported"
+msgstr "لم يتم استيراد أي وحدة إعلانية حتى الآن."
+
+#. amount of ads imported
+#: admin/class-advanced-ads-gam-ajax.php:266
+msgid "%s ad imported."
+msgid_plural "%s ads imported."
+msgstr[0] "لم يتم استيراد أي إعلان (%s)"
+msgstr[1] "تم استيراد إعلان واحد (%s)"
+msgstr[2] "تم استيراد إعلانين (%s)"
+msgstr[3] "تم استيراد %s إعلانات"
+msgstr[4] "تم استيراد %s إعلانات"
+msgstr[5] "تم استيراد %s إعلانات"
+
+#: admin/views/ads-list.php:104
+msgid "Network code"
+msgstr "كود الشبكة"
+
+#: admin/views/importer/base-frame.php:21
+msgid "Import ad units from your account"
+msgstr "استيراد وحدات إعلانية من حسابك"
+
+#: admin/views/importer/base-frame.php:23
+msgid "Import"
+msgstr "استيراد"
+
+#: admin/class-advanced-ads-gam-admin.php:213
+msgid "Enter the user meta \"meta_key\" as a value."
+msgstr "أدخل البيانات الوصفية للمستخدم \"meta_key\" كقيمة."
+
+#: admin/class-advanced-ads-gam-admin.php:208
+msgid "Enter the post meta \"meta_key\" as a value."
+msgstr "أدخل البيانات الوصفية للمقالة \"meta_key\" كقيمة."
+
+#: admin/views/ad-sizes/responsive-sizes.php:12
+msgid "Does not work on AMP."
+msgstr "لا يعمل على صفحات الجوّال المسرَّعة"
+
+#: admin/class-advanced-ads-gam-ajax.php:267 admin/views/ad-search.php:53
+#: admin/views/ad-search.php:57 admin/views/ad-search.php:62
+#: admin/views/ads-list.php:124 admin/views/ads-list.php:125
+msgid "Close"
+msgstr "إغلاق"
+
+#: admin/views/ad-sizes/amp.php:11
+msgid "AMP pages"
+msgstr "صفحات الجوّال المسرَّعة"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: admin/views/ad-sizes/table.php:23
+msgid "Ad units with the fluid size selected on AMP pages only work when placed below the fold."
+msgstr "الوحدات الإعلانية ذات الحجم المرن المحدد في صفحات الجوّال المسرَّعة لا تعمل إلا عند وضعها في الجزء السفلي غير المرئي من الصفحة."
+
+#: admin/views/ad-parameters.php:75 admin/views/ads-list.php:105
+msgid "Ad unit name"
+msgstr "اسم الوحدة الإعلانية"
+
+#: admin/views/gam-connect.php:43
+msgid "Processing authorization"
+msgstr "معالجة الإذن"
+
+#. link to manual page
+#: admin/views/gam-network-id.php:71
+msgid "Please enable the API option in your Ad Manager account and reload this page. Manual %s"
+msgstr "يرجى تمكين خيار API في حساب مدير الإعلانات الخاص بك وإعادة تحميل هذه الصفحة. الدليل %s"
+
+#: admin/views/gam-network-id.php:36
+msgid "Manual"
+msgstr "دليل المستخدم"
+
+#: admin/views/ad-parameters.php:103
+msgid "Fluid sizes cannot be aligned left or right. Please choose another option for Position."
+msgstr "لا يمكن محاذاة الاحجام المرنة إلى اليمين او اليسار. الرجاء تحديد خيار آخر للوظيفة."
+
+#. 1: link to License tab, 2: closing anchor tag
+#: admin/views/gam-network-id.php:82
+msgid "Please re-activate %1$syour license%2$s to update the ad unit list."
+msgstr "%1$s الرجاء إعادة تنشيط %2$s ترخيصك لتحديث قائمة الوحدات الإعلانية."
+
+#. 1: opening anchor tag. 2: closing tag
+#. 1: link to License tab, 2: closing anchor tag
+#: admin/views/ads-list.php:86 admin/views/gam-network-id.php:46
+msgid "Please activate %1$syour license%2$s to connect your account."
+msgstr "%1$s الرجاء تفعيل %2$s ترخيصك لربط حسابك."
+
+#: admin/views/ad-sizes/responsive-sizes.php:10
+msgid "Automatically filter out ad sizes that are too large for the available space in the frontend."
+msgstr "تصفية أحجام الإعلانات الكبيرة جدًا بالنسبة إلى المساحة المتوفرة في الواجهة الأمامية تلقائيًا."
+
+#: admin/views/ad-sizes/table-row.php:22
+msgid "delete"
+msgstr "حذف"
+
+#: admin/views/ad-sizes/table-row.php:3 admin/views/ad-sizes/table.php:5
+msgid "min. screen width"
+msgstr "الحد الأدنى لعرض الشاشة"
+
+#: admin/views/key-value.php:148
+msgid "Add"
+msgstr "أضف"
+
+#: admin/views/key-value.php:52
+msgid "Key-value targeting"
+msgstr "استهداف القيمة الرئيسية"
+
+#: admin/views/ad-parameters.php:50
+msgid "This ad unit does not have any ad sizes"
+msgstr "لا تحتوي هذه الوحدة الإعلانية على أي أحجام إعلانات"
+
+#: admin/views/ad-parameters.php:45
+msgid "Ad sizes"
+msgstr "أحجام الإعلانات"
+
+#: admin/views/ads-list.php:97
+msgid "Update ad"
+msgstr "تحديث الإعلان"
+
+#: admin/views/ads-list.php:95
+msgid "The selected ad unit has changed in your GAM account. Please re-save this ad to apply the new changes."
+msgstr "تم تغيير الوحدة الإعلانية المحددة في حساب GAM الخاص بك. يرجى إعادة حفظ هذا الإعلان لتطبيق التغييرات الجديدة."
+
+#: admin/class-advanced-ads-gam-admin.php:294 admin/views/key-value.php:94
+msgid "Any terms, including categories and tags. Enabled on single pages."
+msgstr "أي شروط ، بما في ذلك الفئات والعلامات. ممكنة على الصفحات فردية."
+
+#: admin/class-advanced-ads-gam-admin.php:293 admin/views/key-value.php:90
+msgid "Any terms, including categories and tags. Enabled on single and archive pages."
+msgstr "أي شروط ، بما في ذلك الفئات و العلامات. ممكنة على الصفحات الفردية و صفحات الأرشيف."
+
+#: admin/class-advanced-ads-gam-admin.php:292 admin/views/key-value.php:58
+#: admin/views/key-value.php:79 admin/views/key-value.php:145
+msgid "Value"
+msgstr "قيمة"
+
+#: admin/class-advanced-ads-gam-admin.php:291 admin/views/key-value.php:57
+#: admin/views/key-value.php:75 admin/views/key-value.php:142
+msgid "Key"
+msgstr "مفتاح"
+
+#: admin/class-advanced-ads-gam-admin.php:290 admin/views/key-value.php:56
+#: admin/views/key-value.php:71 admin/views/key-value.php:130
+msgid "Type"
+msgstr "نوع"
+
+#: admin/class-advanced-ads-gam-admin.php:244
+#: admin/class-advanced-ads-gam-admin.php:267
+#: admin/class-advanced-ads-gam-admin.php:270
+msgid "Connect to GAM"
+msgstr "اتصل بـ GAM"
+
+#: admin/class-advanced-ads-gam-admin.php:224
+msgid "send also on archive pages"
+msgstr "الارسال على صفحات الأرشيف ايضا"
+
+#: admin/class-advanced-ads-gam-admin.php:223
+msgid "Any terms on single pages, including categories and tags."
+msgstr "أي شروط على الصفحات الفردية ، بما في ذلك الفئات و العلامات."
+
+#: admin/class-advanced-ads-gam-admin.php:222
+msgid "Categories/Tags/Terms"
+msgstr "الفئات / العلامات / المصطلحات"
+
+#: admin/class-advanced-ads-gam-admin.php:218
+msgid "Taxonomy of archive pages."
+msgstr "تصنيف صفحات الأرشيف."
+
+#: admin/class-advanced-ads-gam-admin.php:217
+msgid "Taxonomy"
+msgstr "التصنيف"
+
+#: admin/class-advanced-ads-gam-admin.php:212
+msgid "User meta"
+msgstr "تعريف المستخدم"
+
+#: admin/class-advanced-ads-gam-admin.php:207
+msgid "Post meta"
+msgstr "البيانات الوصفية للمقالة"
+
+#: admin/class-advanced-ads-gam-admin.php:203
+msgid "ID of the Advanced Ads placement."
+msgstr "معرّف موضع الإعلانات المتقدمة."
+
+#: admin/class-advanced-ads-gam-admin.php:202
+msgid "Placement ID"
+msgstr "معرف الموضع"
+
+#: admin/class-advanced-ads-gam-admin.php:198
+msgid "ID of the current post or page."
+msgstr "معرف المنشور أو الصفحة الحالية"
+
+#. 1: 'single', 2: 'archive', 3: 'home', 4: 'blog'
+#: admin/class-advanced-ads-gam-admin.php:197
+msgid "Page ID"
+msgstr "معرف الصفحة"
+
+#: admin/class-advanced-ads-gam-admin.php:185
+msgid "Page type"
+msgstr "نوع الصفحة"
+
+#: admin/class-advanced-ads-gam-admin.php:180
+msgid "Page slug"
+msgstr "الاسم اللطيف للمنشور"
+
+#: admin/class-advanced-ads-gam-admin.php:175
+msgid "Post types"
+msgstr "أنواع المنشورات"
+
+#: admin/class-advanced-ads-gam-admin.php:169
+msgid "Custom key"
+msgstr "مفتاح مخصص"
+
+#: includes/class-advanced-ads-network-gam.php:299
+#: admin/views/key-value.php:120
+msgid "Remove"
+msgstr "إزالة"
+
+#. Name of the plugin
+msgid "Advanced Ads – Google Ad Manager Integration"
+msgstr "الإعلانات المتقدمة - تكامل مدير إعلانات Google"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/google-ad-manager/"
+msgstr "https://wpadvancedads.com/add-ons/google-ad-manager/"
+
+#: admin/views/gam-connect.php:61
+msgid "Please select the network account"
+msgstr "الرجاء تحديد حساب الشبكة"
+
+#. Description of the plugin
+msgid "Google Ad Manager Integration for WordPress"
+msgstr "تكامل مدير إعلانات Google مع WordPress"
+
+#: includes/class-advanced-ads-network-gam.php:119
+msgid "Collapse empty elements"
+msgstr "طي العناصر الفارغة"
+
+#: includes/class-advanced-ads-network-gam.php:108
+msgid "Ad Manager account"
+msgstr "حساب مدير الإعلانات"
+
+#: advanced-ads-gam.php:62
+msgid "<strong>Advanced Ads – Google Ad Manager Integration</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong> الإعلانات المتقدمة - تكامل مدير إعلانات Google </strong> هو امتداد للمكوّن الإضافي المجاني Advanced Ads."
+
+#: advanced-ads-gam.php:59
+msgid "Install Now"
+msgstr "تثبيت الآن"
+
+#: advanced-ads-gam.php:57
+msgid "Activate Now"
+msgstr "تفعيل الان"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#: admin/views/gam-network-id.php:32
+msgid "Connect your Google Ad Manager account"
+msgstr "ربط حساب Google Ad Manager الخاص بك"
+
+#: admin/views/gam-network-id.php:31 admin/views/gam-network-id.php:40
+msgid "Connect account"
+msgstr "ربط الحساب"
+
+#: admin/views/gam-network-id.php:23
+msgid "Test account"
+msgstr "حساب تجريبي"
+
+#: admin/views/gam-network-id.php:17
+msgid "Revoke access"
+msgstr "إبطال الوصول إلى الحساب"
+
+#: admin/views/gam-connect.php:65
+msgid "Select account"
+msgstr "حدد الحساب"
+
+#: admin/views/gam-empty-div.php:11
+msgid "Fill space when ad is loaded"
+msgstr "املأ الفراغ عند تحميل الإعلان"
+
+#: admin/views/gam-empty-div.php:10
+msgid "Collapse if empty"
+msgstr "الطي في حالة الفراغ"
+
+#: admin/views/gam-empty-div.php:9
+msgid "Do not collapse"
+msgstr "المرجو عدم الطي"
+
+#: admin/views/ads-list.php:60 admin/views/ads-list.php:70
+msgid "You need to connect to a Google Ad Manager account"
+msgstr "تحتاج إلى الاتصال بحساب مدير إعلانات Google"
+
+#: admin/views/ads-list.php:31 admin/views/ads-list.php:151
+#: admin/views/ads-list.php:193
+msgid "Ad Unit Code"
+msgstr "رمز (كود) الوحدة الإعلانية"
+
+#: admin/views/ad-search.php:22 admin/views/ads-list.php:29
+#: admin/views/ads-list.php:150 admin/views/ads-list.php:191
+#: admin/views/importer/import-table.php:14
+msgid "Description"
+msgstr "وصف"
+
+#: admin/views/ad-search.php:21 admin/views/ads-list.php:27
+#: admin/views/ads-list.php:149 admin/views/ads-list.php:189
+#: admin/views/importer/import-table.php:13
+msgid "Name"
+msgstr "اسم"
+
+#: admin/class-advanced-ads-gam-admin.php:398
+msgid "Google Ad Manager Integration"
+msgstr "كامل مدير إعلانات Google"
+
+#: admin/class-advanced-ads-gam-api-soap.php:427 admin/views/gam-connect.php:57
+msgid "No Ad Manager network found in this Google account"
+msgstr "م يتم العثور على شبكة مدير الإعلانات في حساب Google هذا"
+
+#. GAM account holder name.
+#: admin/class-advanced-ads-gam-oauth2.php:101
+msgid "Error while renewing access token for \"%s\""
+msgstr "خطأ أثناء تجديد رمز الوصول لـ \"%s\""
+
+#: includes/class-advanced-ads-gam-ad-type.php:26
+msgid "Use ad units from your Google Ad Manager account"
+msgstr "استخدم الوحدات الإعلانية من حساب مدير إعلانات Google الخاص بك"
+
+#: includes/class-advanced-ads-gam-ad-type.php:25
+msgid "Google Ad Manager"
+msgstr "مدير إعلانات Google"

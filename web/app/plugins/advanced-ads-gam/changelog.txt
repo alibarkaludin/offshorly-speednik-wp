@@ -1,0 +1,178 @@
+== Changelog ==
+
+= 2.6.1 (December 19, 2024) =
+
+- Fix: prevent a fatal error when the basic plugin is disabled
+
+= 2.6.0 (December 16, 2024) =
+
+- Improvement: update GAM API version to v202411
+- Improvement: add compatibility code for Advanced Ads 2.0
+
+= 2.5.0 (October 9, 2024) =
+
+- Improvement: update Arabic and Greek translations
+- Improvement: update GAM API version to `v202408`
+
+= 2.4.1 (June 27, 2024) =
+
+- Improvement: update GAM API version to v202402
+- Fix: resolve a rare PHP warning in the backend
+
+= 2.4.0 (January 31, 2024) =
+
+- Improvement: update Arabic, Danish, Deutsch, German (Austria), German (Switzerland), German (formal), Greek, Spanish, Spanish (Argentina), Spanish (Colombia), Spanish (Mexico) and Spanish (Venezuela) translations
+- Improvement: separate active GAM unit from the unit list
+- Fix: hide the ad wrapper when an ad unit is empty
+- Fix: update the GAM API version to v202311
+
+= 2.3.2 (October 26, 2023) =
+
+- Fix: replace deprecated functions
+
+= 2.3.1 (July 5, 2023) =
+
+- Fix: prevent the statistics from being hidden on the ad edit page
+
+= 2.3.0 (April 12, 2023) =
+
+- Improvement: always keep zero as screen width on the first row of ad sizes
+
+= 2.2.0 (March 14, 2023) =
+
+- Improvement: update German, Arabic, and Slovenian translations
+- Improvement: add a note about enabling the GAM API before connecting the plugin to the GAM account
+- Fix: properly decode the ad unit code on the frontend
+- Fix: update GAM API version to 202302
+
+= 2.1.3 (January 17, 2023) =
+
+- Improvement: add Slovenian translation
+- Improvement: update Arabic and Danish translations
+- Fix: load ad search modal asynchronously on ad edit page
+
+= 2.1.2 (December 21, 2022) =
+
+- Fix: prevent existing ads from appearing in the list of ads that can be imported
+
+= 2.1.1 (December 9, 2022) =
+
+- Fix: prevent JS error when the ad unit name or description contains non-latin character
+
+= 2.1.0 (November 10, 2022) =
+
+- Feature: add ad auto-refresh option
+- Improvement: add German (Austria, Switzerland), Greek translations
+- Improvement: update Arabic, Danish, German, Italian translations
+
+= 2.0.0 (October 11, 2022) =
+
+- Feature: allow searching for individual ads in the GAM account on the ad edit screen to only import those you use on your website
+- Feature: let you connect to your GAM account if you have more than 1500 ads
+- Improvement: split Advanced_Ads_Gam_Admin into multiple classes
+- Improvement: split the `gam.js` backend script into multiple smaller files
+- Fix: fix CSS for the ad unit list (overlaying scroll bar)
+- Fix: show a warning when the API is not enabled in the GAM account
+- Fix: stop auto-loading backend options
+- Fix: use Advanced Ads REST API when PHP's SOAP module fails at account connection
+
+= 1.6.0 (September 1, 2022) =
+
+- Improvement: update Google Ad Manager API version to v202208
+- Fix: ad sizes minimum screen width not saved when created from a freshly edited row
+- Fix: cannot get ad unit list from Google
+- Fix: do not show ad tracking section for GAM ads on the ad edit page
+
+= 1.5.3 (July 28, 2022) =
+
+- Improvement: Unify styling of errors, warnings and notices with the base plugin's style
+- Fix: prevent "Placement ID" key-value to be displayed as "page_type" on static pages
+
+= 1.5.2 (July 25, 2022) =
+
+- Fix: prevent 'fluid' size from being appended on ad units with a single size
+- Fix: make key-values work with AJAX cache-busting (Advanced Ads Pro)
+
+= 1.5.1 =
+
+- Improvement: add Arabic translation
+- Fix: prevent a PHP warning when using an ad unit without any specified size
+
+= 1.5.0 =
+
+- Feature: add and remove custom ad unit sizes
+- Improvement: update Google Ad Manager API version to v202111
+- Improvement: update German and Danish translations
+- Fix: show a warning at account connection when API access is not enabled for the current account
+- Fix: prevent a PHP warning when importing ads on a fresh WordPress installation
+
+= 1.4.2 =
+
+- Fix: import button missing directly after connecting the account
+- Fix: connect to GAM accounts that use multiple networks
+
+= 1.4.1 =
+
+- Improvement: update translations (German, Italian, Danish)
+- Fix: add two Ad sizes rows instead of one in the backend form
+
+= 1.4.0 =
+
+- Feature: import multiple ad units from the GAM account at the same time
+- Feature: new option to specify ad unit sizes for AMP pages
+- Improvement: change description for Post Meta key/values targeting to avoid confusion with same terms in GAM and WordPress
+- Fix: GAM ads now load correctly when switching from the AdSense ad type
+
+= 1.3.1 =
+
+- updated GAM API version
+- show a notice when an ad unit was previously loaded from a different network
+
+= 1.3.0 =
+
+- show a warning when fluid ads are using floated position
+- added note when the GAM account size exceeds 1500 ads
+
+= 1.2.0 =
+
+- switch to use web authentication to connect with the GAM account
+- add basic responsive behavior to the key-values option table
+- fixed adding a new line to ad sizes when the last one was removed
+
+= 1.1.1 =
+
+- fixed wrongly escaped output for automatically filtered sizes
+
+= 1.1.0 =
+
+- implemented interface for Ad Sizes to create responsive Google Ad Manager ads
+- implemented interface for Key-values Targeting
+- added support for native (fluid) ads
+- show the date of the last update below the ad unit list
+- fixed issue when switching from plain text ad type to GAM ad type
+
+= 1.0.3 =
+
+- fixed missing variable
+- fixed type casting bug
+- fixed occasional critical issue while registering the "connect" menu item
+
+= 1.0.2 =
+
+- added relevant links after the user enables the add-on for the first time
+- updated GAM API version
+
+= 1.0.1 =
+
+- improved wording of missing API error message
+- fixed license check
+
+= 1.0 =
+
+- allow GAM connection on servers without soap module
+- added German translations
+- fix an error for Google accounts without access to GAM
+
+= 0.9 =
+
+- first plugin version

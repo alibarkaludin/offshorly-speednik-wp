@@ -1,0 +1,525 @@
+# Translation of Google Ad Manager in German
+# This file is distributed under the same license as the Google Ad Manager package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-03 21:52:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: de\n"
+"Project-Id-Version: Google Ad Manager\n"
+
+#. translators: 1: anchor tag that links to Google's docs, 2: closing anchor
+#. tag
+#: admin/views/ad-parameters.php:108
+msgid "Important: To comply with Google policy and enable your inventory to compete on Ad Exchange, %1$syou must declare which portions of your inventory refresh%2$s."
+msgstr "Wichtig: Damit Sie die Google-Richtlinien einhalten und Ihr Inventar bei Ad Exchange konkurrieren kann, %1$smüssen Sie angeben, welche Teile Ihres Inventars automatisch aktualisiert werden%2$s."
+
+#: admin/views/ad-parameters.php:100
+msgid "seconds"
+msgstr "Sekunden"
+
+#: admin/views/ad-parameters.php:96
+msgid "Auto-refresh"
+msgstr "Automatische Aktualisierung"
+
+#: admin/views/gam-connect.php:44
+msgid "Switching transport method"
+msgstr "Wechseln der Transportmethode"
+
+#. translators: amount of ads that can be imported from the Google account
+#: admin/views/importer/base-frame.php:11
+msgid "%d ad unit is not yet imported."
+msgid_plural "%d ad units are not yet imported."
+msgstr[0] "%d Anzeige ist noch nicht importiert."
+msgstr[1] "%d Anzeigen sind noch nicht importiert."
+
+#: admin/views/ad-list-rows.php:11
+msgid "Update ad unit"
+msgstr "Anzeige aktualisieren"
+
+#: admin/class-advanced-ads-gam-api-soap.php:416
+msgid "Unknown response format"
+msgstr "Unbekanntes Antwortformat"
+
+#: admin/class-advanced-ads-gam-oauth2.php:245
+msgid "Unknown error while submitting code"
+msgstr "Unbekannter Fehler bei der Übermittlung des Codes"
+
+#. translators: Google Ad Manager account ID
+#: admin/class-advanced-ads-gam-oauth2.php:121
+msgid "Unknown error while renewing access token for \"%s\""
+msgstr "Unbekannter Fehler bei der Erneuerung des Zugriffstokens für \"%s\""
+
+#: admin/views/ad-parameters.php:89
+msgid "The selected ad unit is not in your ad list."
+msgstr "Die ausgewählte Anzeige befindet sich nicht in Ihrer Anzeigenliste."
+
+#: admin/views/ad-search.php:51
+msgid "The listed ad units are already imported."
+msgstr "Die aufgelisteten Anzeigen sind bereits importiert."
+
+#: admin/class-advanced-ads-gam-api-rest.php:85
+msgid "Testing the API"
+msgstr "Testen der API"
+
+#: admin/views/ad-list-rows.php:21 admin/views/ads-list.php:63
+msgid "Search ad units"
+msgstr "Anzeigen suchen"
+
+#: admin/views/ad-search.php:8
+msgid "Search"
+msgstr "Suchen"
+
+#: admin/class-advanced-ads-gam-ajax.php:411
+msgid "Not Authorized"
+msgstr "Nicht autorisiert"
+
+#: admin/class-advanced-ads-gam-api-rest.php:170
+msgid "No SOAP. unknown response format >> getting ad units list"
+msgstr "Kein SOAP. Unbekanntes Antwortformat >> Anzeigenliste abrufen"
+
+#: admin/class-advanced-ads-gam-api-rest.php:155
+msgid "No SOAP. No access token >> getting ad units list"
+msgstr "Kein SOAP. Kein Zugriffstoken >> Anzeigenliste abrufen"
+
+#: admin/class-advanced-ads-gam-api-rest.php:196
+msgid "No SOAP. No access token >> getting ad by"
+msgstr "Kein SOAP. Kein Zugriffstoken >> Anzeigen nach abrufen"
+
+#: admin/class-advanced-ads-gam-api-rest.php:123
+msgid "No SOAP. Getting network list"
+msgstr "Kein SOAP. Netzwerkliste abrufen"
+
+#: admin/class-advanced-ads-gam-api-rest.php:176
+msgid "No SOAP. Getting all units"
+msgstr "Kein SOAP. Alle Anzeigen abrufen"
+
+#: admin/class-advanced-ads-gam-api-rest.php:215
+msgid "No SOAP. Getting ads by"
+msgstr "Kein SOAP. Alle Anzeigen nach abrufen"
+
+#: admin/views/ad-search.php:31
+msgid "No ad found matching that name"
+msgstr "Keine Anzeige zu diesem Namen gefunden"
+
+#: admin/views/ad-search.php:57
+msgid "Load into ad list"
+msgstr "In die Anzeigenliste laden"
+
+#: admin/class-advanced-ads-gam-api-rest.php:46
+#: admin/class-advanced-ads-gam-oauth2.php:69
+msgid "Invalid JSON string"
+msgstr "Ungültige JSON-Zeichenfolge"
+
+#: admin/class-advanced-ads-gam-oauth2.php:227
+msgid "Error while submitting code"
+msgstr "Fehler beim Übermitteln des Codes"
+
+#: admin/views/ad-search.php:5
+msgid "Enter an ad unit name from your Google Ad Manager account"
+msgstr "Geben Sie den Namen einer Anzeige aus Ihrem Google Ad Manager-Konto ein"
+
+#: admin/class-advanced-ads-gam-ajax.php:415
+msgid "Bad request"
+msgstr "Fehlerhafte Anfrage"
+
+#: admin/views/ad-list-rows.php:12
+msgid "Remove ad unit"
+msgstr "Anzeige entfernen"
+
+#. translators: The string is followed by the sanitized key-value input before
+#. it is saved
+#: includes/class-advanced-ads-network-gam.php:302
+msgid "Will be created as"
+msgstr "Wird erstellt als"
+
+#: includes/predefined-sizes.php:11
+msgid "select a size"
+msgstr "Größe wählen"
+
+#: admin/views/ad-sizes/table.php:24
+msgid "Reset ad sizes"
+msgstr "Größen zurücksetzen"
+
+#: admin/views/ad-sizes/table-cell.php:4
+#: admin/views/ad-sizes/table-header.php:2
+#: admin/views/ad-sizes/table-row.php:10 admin/views/ad-sizes/table.php:10
+msgid "remove size"
+msgstr "Größe entfernen"
+
+#: admin/views/ad-sizes/table-row.php:15 admin/views/ad-sizes/table.php:15
+msgid "new ad size"
+msgstr "Neue Größe"
+
+#: includes/predefined-sizes.php:12
+msgid "fluid"
+msgstr "Flexibel"
+
+#: includes/class-advanced-ads-network-gam.php:300
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/views/ad-sizes/table-row.php:16
+msgid "add screen width"
+msgstr "Browserbreite hinzufügen"
+
+#: admin/views/importer/base-frame.php:7
+msgid "You can choose which ad units to import."
+msgstr "Sie können auswählen, welche Anzeigen importiert werden sollen."
+
+#: admin/views/ads-list.php:78
+msgid "The selected ad is not from the currently connected account. You can still use it though."
+msgstr "Die ausgewählte Anzeige stammt nicht von dem derzeit verbundenen Benutzerkonto. Sie können sie aber trotzdem verwenden."
+
+#: admin/class-advanced-ads-gam-ajax.php:246
+msgid "Open ad overview"
+msgstr "Anzeigenübersicht öffnen"
+
+#: admin/views/importer/base-frame.php:15
+msgid "One ad unit is not yet imported"
+msgstr "Eine Anzeige ist noch nicht importiert."
+
+#. translators: amount of ads imported
+#: admin/class-advanced-ads-gam-ajax.php:245
+msgid "%s ad imported."
+msgid_plural "%s ads imported."
+msgstr[0] "%s Anzeige importiert."
+msgstr[1] "%s Anzeigen importiert."
+
+#: admin/views/ads-list.php:80
+msgid "Network code"
+msgstr "Netzwerk-Code"
+
+#: admin/views/importer/base-frame.php:21
+msgid "Import ad units from your account"
+msgstr "Importieren Sie Anzeigen aus Ihrem Account"
+
+#: admin/views/importer/base-frame.php:23
+msgid "Import"
+msgstr "Import"
+
+#: admin/class-advanced-ads-gam-admin.php:206
+msgid "Enter the user meta \"meta_key\" as a value."
+msgstr "Geben Sie die Benutzermetadaten \"meta_key\" als Wert ein."
+
+#: admin/class-advanced-ads-gam-admin.php:201
+msgid "Enter the post meta \"meta_key\" as a value."
+msgstr "Geben Sie die Beitragsmetadaten \"meta_key\" als Wert ein."
+
+#: admin/views/ad-sizes/responsive-sizes.php:12
+msgid "Does not work on AMP."
+msgstr "Funktioniert nicht auf AMP."
+
+#: admin/class-advanced-ads-gam-ajax.php:246 admin/views/ad-search.php:52
+#: admin/views/ad-search.php:56 admin/views/ad-search.php:61
+msgid "Close"
+msgstr "Schließen"
+
+#: admin/views/ad-sizes/amp.php:11
+msgid "AMP pages"
+msgstr "AMP-Seiten"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: admin/views/ad-sizes/table.php:23
+msgid "Ad units with the fluid size selected on AMP pages only work when placed below the fold."
+msgstr "Anzeigenblöcke mit ausgewählter flexibler Größe funktionieren auf AMP-Seiten nur dann, wenn sie \"below the fold\" platziert werden."
+
+#: admin/views/ad-parameters.php:91 admin/views/ads-list.php:81
+msgid "Ad unit name"
+msgstr "Anzeigentitel"
+
+#: admin/views/gam-connect.php:37
+msgid "Processing authorization"
+msgstr "Authentifizierung läuft"
+
+#. translators: link to manual page
+#: admin/views/gam-network-id.php:65
+msgid "Please enable the API option in your Ad Manager account and reload this page. Manual %s"
+msgstr "Bitte aktivieren Sie die API-Option in Ihrem Ad Manager Konto und laden dann diese Seite neu. Anleitung %s"
+
+#: admin/views/ad-parameters.php:119
+msgid "Fluid sizes cannot be aligned left or right. Please choose another option for Position."
+msgstr "Die Fluid-Größe kann nicht links oder rechts ausgerichtet werden. Bitte wählen Sie eine andere Position."
+
+#. translators: 1: link to License tab, 2: closing anchor tag
+#: admin/views/gam-network-id.php:76
+msgid "Please re-activate %1$syour license%2$s to update the ad unit list."
+msgstr "Bitte reaktivieren Sie %1$sIhre Lizenz%2$s um die Azeigenliste zu aktualisieren."
+
+#. translators: 1: link to License tab, 2: closing anchor tag
+#: admin/views/ad-parameters.php:49 admin/views/gam-network-id.php:40
+msgid "Please activate %1$syour license%2$s to connect your account."
+msgstr "Bitte aktivieren Sie %1$sIhre Lizenz%2$s um Ihr Konto zu verbinden."
+
+#: admin/views/ad-sizes/responsive-sizes.php:10
+msgid "Automatically filter out ad sizes that are too large for the available space in the frontend."
+msgstr "Automatisch Anzeigengrößen herausfiltern, die zu groß für den verfügbaren Platz im Frontend sind."
+
+#: admin/views/ad-sizes/table-row.php:17
+msgid "delete"
+msgstr "löschen"
+
+#: admin/views/ad-sizes/table-row.php:4 admin/views/ad-sizes/table.php:5
+msgid "min. screen width"
+msgstr "min. Browserbreite"
+
+#: admin/views/key-value.php:148
+msgid "Add"
+msgstr "hinzufügen"
+
+#: admin/views/key-value.php:52
+msgid "Key-value targeting"
+msgstr "Schlüssel/Wert-Paare (key-values)"
+
+#: admin/views/ad-parameters.php:66
+msgid "This ad unit does not have any ad sizes"
+msgstr "Dieser Anzeigenblock hat keine Größen"
+
+#: admin/views/ad-parameters.php:61
+msgid "Ad sizes"
+msgstr "Anzeigengrößen"
+
+#: admin/views/ads-list.php:73
+msgid "Update ad"
+msgstr "Anzeige aktualisieren"
+
+#: admin/views/ads-list.php:71
+msgid "The selected ad unit has changed in your GAM account. Please re-save this ad to apply the new changes."
+msgstr "Der gewählte Anzeigenblock wurde im GAM-Konto aktualisiert. Bitte speichern Sie die Anzeige erneut um die Änderungen zu importieren."
+
+#: admin/class-advanced-ads-gam-admin.php:283 admin/views/key-value.php:94
+msgid "Any terms, including categories and tags. Enabled on single pages."
+msgstr "Alle Begriffe, inklusive Kategorien und Schlagworten auf Einzelseiten."
+
+#: admin/class-advanced-ads-gam-admin.php:282 admin/views/key-value.php:90
+msgid "Any terms, including categories and tags. Enabled on single and archive pages."
+msgstr "Alle Begriffe, inklusive Kategorien und Schlagworten auf Einzel- und Archivseiten."
+
+#: admin/class-advanced-ads-gam-admin.php:281 admin/views/key-value.php:58
+#: admin/views/key-value.php:79 admin/views/key-value.php:145
+msgid "Value"
+msgstr "Wert"
+
+#: admin/class-advanced-ads-gam-admin.php:280 admin/views/key-value.php:57
+#: admin/views/key-value.php:75 admin/views/key-value.php:142
+msgid "Key"
+msgstr "Schlüssel"
+
+#: admin/class-advanced-ads-gam-admin.php:279 admin/views/key-value.php:56
+#: admin/views/key-value.php:71 admin/views/key-value.php:130
+msgid "Type"
+msgstr "Typ"
+
+#: admin/class-advanced-ads-gam-admin.php:237
+#: admin/class-advanced-ads-gam-admin.php:256
+#: admin/class-advanced-ads-gam-admin.php:259
+msgid "Connect to GAM"
+msgstr "Mit GAM verbinden"
+
+#: admin/class-advanced-ads-gam-admin.php:217
+msgid "send also on archive pages"
+msgstr "auf Archivseiten aktivieren"
+
+#: admin/class-advanced-ads-gam-admin.php:216
+msgid "Any terms on single pages, including categories and tags."
+msgstr "Alle Begriffe auf Einzelseiten, inklusive Kategorien und Schlagworten."
+
+#: admin/class-advanced-ads-gam-admin.php:215
+msgid "Categories/Tags/Terms"
+msgstr "Kategorien/Schlagworte/Begriffe"
+
+#: admin/class-advanced-ads-gam-admin.php:211
+msgid "Taxonomy of archive pages."
+msgstr "Taxonomie auf Archivseiten."
+
+#: admin/class-advanced-ads-gam-admin.php:210
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: admin/class-advanced-ads-gam-admin.php:205
+msgid "User meta"
+msgstr "User meta"
+
+#: admin/class-advanced-ads-gam-admin.php:200
+msgid "Post meta"
+msgstr "Post meta"
+
+#: admin/class-advanced-ads-gam-admin.php:196
+msgid "ID of the Advanced Ads placement."
+msgstr "ID der Platzierung in Advanced Ads."
+
+#: admin/class-advanced-ads-gam-admin.php:195
+msgid "Placement ID"
+msgstr "Platzierungs-ID"
+
+#: admin/class-advanced-ads-gam-admin.php:191
+msgid "ID of the current post or page."
+msgstr "ID des aktuellen Beitrags oder Seite."
+
+#: admin/class-advanced-ads-gam-admin.php:190
+msgid "Page ID"
+msgstr "Seiten-ID"
+
+#: admin/class-advanced-ads-gam-admin.php:178
+msgid "Page type"
+msgstr "Seitentyp"
+
+#: admin/class-advanced-ads-gam-admin.php:173
+msgid "Page slug"
+msgstr "Titelform (Slug)"
+
+#: admin/class-advanced-ads-gam-admin.php:168
+msgid "Post types"
+msgstr "Inhaltstypen"
+
+#: admin/class-advanced-ads-gam-admin.php:162
+msgid "Custom key"
+msgstr "Eigener Schlüssel"
+
+#: includes/class-advanced-ads-network-gam.php:345
+msgid "one day ago"
+msgid_plural "%s days ago"
+msgstr[0] "vor einem Tag"
+msgstr[1] "vor %s Tagen"
+
+#: includes/class-advanced-ads-network-gam.php:342
+msgid "less than 24 hours ago"
+msgstr "vor weniger als 24 Stunden"
+
+#: includes/class-advanced-ads-network-gam.php:340
+msgid "less than an hour ago"
+msgstr "vor weniger als einer Stunde"
+
+#: includes/class-advanced-ads-network-gam.php:338
+msgid "just now"
+msgstr "gerade eben"
+
+#: includes/class-advanced-ads-network-gam.php:334
+msgid "unknown"
+msgstr "unbekannt"
+
+#: includes/class-advanced-ads-network-gam.php:332
+msgid "Last updated:"
+msgstr "Zuletzt aktualisiert:"
+
+#: admin/views/key-value.php:120
+#: includes/class-advanced-ads-network-gam.php:299
+msgid "Remove"
+msgstr "Entfernen"
+
+#. Plugin Name of the plugin
+msgid "Advanced Ads – Google Ad Manager Integration"
+msgstr "Advanced Ads – Google Ad Manager Integration"
+
+#. Plugin URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/google-ad-manager/"
+msgstr "https://wpadvancedads.com/add-ons/google-ad-manager/"
+
+#: admin/views/gam-connect.php:55
+msgid "Please select the network account"
+msgstr "Bitte das Netzwerkkonto auswählen"
+
+#. Description of the plugin
+msgid "Google Ad Manager Integration for WordPress"
+msgstr "Integration des Google Ad Managers in WordPress"
+
+#: includes/class-advanced-ads-network-gam.php:119
+msgid "Collapse empty elements"
+msgstr "Leere Elemente einklappen"
+
+#: includes/class-advanced-ads-network-gam.php:108
+msgid "Ad Manager account"
+msgstr "Ad Manager Konto"
+
+#: advanced-ads-gam.php:62
+msgid "<strong>Advanced Ads – Google Ad Manager Integration</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong>Advanced Ads – Google Ad Manager Integration</strong> ist eine Erweiterung für das kostenlose Advanced Ads Plugin."
+
+#: advanced-ads-gam.php:59
+msgid "Install Now"
+msgstr "Jetzt installieren"
+
+#: advanced-ads-gam.php:57
+msgid "Activate Now"
+msgstr "Jetzt aktivieren"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#: admin/views/gam-network-id.php:32
+msgid "Connect your Google Ad Manager account"
+msgstr "Verbinden Sie Ihr Google Ad Manager Konto"
+
+#: admin/views/gam-network-id.php:31 admin/views/gam-network-id.php:34
+msgid "Connect account"
+msgstr "Konto verbinden"
+
+#: admin/views/gam-network-id.php:23
+msgid "Test account"
+msgstr "Konto testen"
+
+#: admin/views/gam-network-id.php:17
+msgid "Revoke access"
+msgstr "Verbindung beenden"
+
+#: admin/views/gam-connect.php:59
+msgid "Select account"
+msgstr "Konto wählen"
+
+#: admin/views/gam-empty-div.php:11
+msgid "Fill space when ad is loaded"
+msgstr "Platz erst füllen wenn die Anzeige geladen ist"
+
+#: admin/views/gam-empty-div.php:10
+msgid "Collapse if empty"
+msgstr "Einklappen, wenn keine Anzeige geladen wird"
+
+#: admin/views/gam-empty-div.php:9
+msgid "Do not collapse"
+msgstr "Nicht einklappen"
+
+#: admin/views/ads-list.php:38 admin/views/ads-list.php:47
+msgid "You need to connect to a Google Ad Manager account"
+msgstr "Sie müssen Ihre Webseite mit dem Google Ad Manager Konto verbinden"
+
+#: admin/views/ads-list.php:26 admin/views/ads-list.php:60
+msgid "Ad Unit Code"
+msgstr "Code"
+
+#: admin/views/ad-search.php:26 admin/views/ads-list.php:25
+#: admin/views/ads-list.php:59 admin/views/importer/import-table.php:14
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin/views/ad-search.php:25 admin/views/ads-list.php:24
+#: admin/views/ads-list.php:58 admin/views/importer/import-table.php:13
+msgid "Name"
+msgstr "Name"
+
+#: admin/class-advanced-ads-gam-admin.php:370
+msgid "Google Ad Manager Integration"
+msgstr "Google Ad Manager Integration"
+
+#: admin/class-advanced-ads-gam-api-soap.php:427 admin/views/gam-connect.php:51
+msgid "No Ad Manager network found in this Google account"
+msgstr "Dieses Google-Konto scheint nicht mit dem Google Ad Manager verbunden zu sein"
+
+#. translators: GAM account holder name.
+#: admin/class-advanced-ads-gam-oauth2.php:101
+msgid "Error while renewing access token for \"%s\""
+msgstr "Die Verbindung konnte nicht hergestellt werden für \"%s\""
+
+#: includes/class-advanced-ads-gam-ad-type.php:26
+msgid "Use ad units from your Google Ad Manager account"
+msgstr "Anzeigenblöcke aus dem Google Ad Manager"
+
+#: includes/class-advanced-ads-gam-ad-type.php:25
+msgid "Google Ad Manager"
+msgstr "Google Ad Manager"

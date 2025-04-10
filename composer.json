@@ -105,9 +105,9 @@
         "cweagans/composer-patches": "^1.7",
         "wpackagist-plugin/safe-svg": "dev-trunk",
         "wpengine/advanced-custom-fields-pro": "^6.0",
-        "wpackagist-plugin/acf-extended": "0.8.9.5",
+        "wpackagist-plugin/acf-extended":"dev-trunk",
         "wpackagist-plugin/wordpress-importer": "dev-trunk",
-        "wpackagist-plugin/advanced-ads": "dev-trunk",
+        "wpackagist-plugin/advanced-ads":"dev-trunk",
         "wp-sync-db/wp-sync-db": "dev-master",
         "wp-sync-db/wp-sync-db-media-files": "dev-master"
     },
