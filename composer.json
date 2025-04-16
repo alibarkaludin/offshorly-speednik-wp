@@ -111,6 +111,7 @@
         "wp-sync-db/wp-sync-db": "dev-master",
         "wp-sync-db/wp-sync-db-media-files": "dev-master",
         "wpackagist-plugin/solr-power":"dev-trunk",
+        "wpackagist-plugin/miniorange-wp-as-saml-idp":"dev-trunk",
         "wpackagist-plugin/miniorange-saml-20-single-sign-on":"dev-trunk"
     },
     "require-dev": {
