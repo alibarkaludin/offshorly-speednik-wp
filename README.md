@@ -1,6 +1,4 @@
-Here’s the updated `README.md` with added links to WSL 2 and Ubuntu setup for Windows:
 
-```markdown
 # Local Development Setup for Pantheon with Lando
 
 This guide covers setting up a local development environment for a WordPress site on Pantheon using Lando, WP Sync DB, and Timber. Follow the steps below to get your development environment up and running.
@@ -43,11 +41,9 @@ terminus auth:login --machine-token=<your-machine-token>
 
 ### 3. Clone the Repository
 
-Clone the repository of the WordPress site you're working on:
-
 ```bash
-git clone <https://github.com/alibarkaludin/offshorly-speednik-wp>
-cd offshorly-speednik-wp
+git clone https://github.com/alibarkaludin/offshorly-speednik-wp <project-name>
+cd <project-name>
 ```
 
 ### 4. Initialize Lando
@@ -125,7 +121,7 @@ gulp build
 
 If you're running a different Lando site name, update the proxy URL in the `gulpfile.js` (or wherever `serve()` is defined):
 
-```js
+```
 export function serve() {
     bs.init({
         proxy: "https://speednik-central-test-site.lndo.site", // <- change this if needed
@@ -206,5 +202,3 @@ Once the database and media are synced, check your **local site (frontend)** for
 - [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Set up Ubuntu on WSL](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
 - [Gulp Basics](https://gulpjs.com/docs/en/getting-started/quick-start)
-
-```
