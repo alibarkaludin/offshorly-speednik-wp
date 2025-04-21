@@ -87,8 +87,8 @@ export function images() {
 // BrowserSync Task
 export function serve() {
     bs.init({
-        proxy: "https://speednik-wp-pantheon.lndo.site",
-        host: "speednik-wp-pantheon.lndo.site",
+        proxy: "https://speednik-central-test-site.lndo.site",
+        host: "speednik-central-test-site.lndo.site",
         open: false,
         ghostMode: false,
         serveStatic: ['.'],
